@@ -10,8 +10,11 @@ import StudentCorner from './pages/StudentCorner'
 import Contact from './pages/Contact'
 
 function App() {
+  // Use basename only in production builds (GitHub Pages)
+  const basename = import.meta.env.PROD ? "/sankalp" : "";
+
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">
@@ -28,7 +31,7 @@ function App() {
         <Footer />
       </div>
     </Router>
-  )
+  );
 }
 
 export default App

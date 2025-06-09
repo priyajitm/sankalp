@@ -3,11 +3,11 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [react(), tailwindcss()],
-  base: "/sankalp/",
+  base: command === "build" ? "/sankalp/" : "/",
   build: {
     outDir: "dist",
     assetsDir: "assets",
   },
-});
+}));
