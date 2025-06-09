@@ -1,0 +1,529 @@
+{
+  "home": {
+    "hero": {
+      "slides": [
+        {
+          "id": 1,
+          "title": "Welcome to Sankalp School",
+          "subtitle": "Empowering Children with Special Needs Since 1997",
+          "description": "A world where children with special needs and typically developing children recognize abilities, not disabilities, and learn together in high-quality, inclusive environments.",
+          "image": "/images/hero-1.jpg",
+          "buttonText": "Explore Our School",
+          "buttonLink": "/about"
+        },
+        {
+          "id": 2,
+          "title": "Quality Special Education",
+          "subtitle": "Individualized Educational Plans for Every Child",
+          "description": "We create customized educational plans to meet the unique needs of each child, helping them achieve their maximum potential.",
+          "image": "/images/hero-2.jpg",
+          "buttonText": "Learn About Admission",
+          "buttonLink": "/admission"
+        },
+        {
+          "id": 3,
+          "title": "Inclusive Learning Environment",
+          "subtitle": "Building Confidence and Independence",
+          "description": "Our supportive community encourages empathy, respect and acceptance in classrooms that integrate students with and without special needs.",
+          "image": "/images/hero-3.jpg",
+          "buttonText": "View Our Programs",
+          "buttonLink": "/special-curriculum"
+        }
+      ]
+    },
+    "aboutSchool": {
+      "title": "Explore Sankalp Kochi",
+      "content": "The foundation of Sankalp was laid in 1997 with a single room and a single child with special needs with the initiative of NWWA. It was basically established as a day care centre initially only for Naval wards. There were milestones to be set up and achieved like: hiring of professional teachers, laying out of basic structure, provision of facilities and amenities, building and ground and finally the structure of the school to be registered. Never the less, the Naval administration took potential steps to structure SANKALP as school for children with special needs. In 2011, Sankalp took a huge leap to have its own premises and a school building located in Naval Base in Willingdon Island, Kochi, Kerala. Presently, the school premises consisting a Play ground, school building with two sections namely the main building and the extension of occupational therapy room.",
+      "highlights": [
+        {
+          "icon": "🏫",
+          "title": "Established 1997",
+          "description": "Started with a single room and one child, now a full-fledged special needs school"
+        },
+        {
+          "icon": "🏢",
+          "title": "Own Premises Since 2011",
+          "description": "Located in Naval Base, Willingdon Island, Kochi, Kerala"
+        },
+        {
+          "icon": "🏃‍♂️",
+          "title": "Complete Facilities",
+          "description": "Playground, main building, and occupational therapy extension"
+        },
+        {
+          "icon": "👥",
+          "title": "Professional Care",
+          "description": "Qualified teachers and specialists providing individualized attention"
+        }
+      ]
+    },
+    "headmistressMessage": {
+      "title": "Headmistress Message",  
+      "name": "Mrs. Soma Chakrabarti",
+      "position": "Headmistress, Sankalp School",
+      "message": "Every child has the right to avail equal opportunities as others, regardless of the difficulties they face. Special education is of great importance for children with learning disabilities, because it gives them the opportunity to get quality education in line with their unique needs. Special education enables every student to gain a high level of independence and reach their full potential. According to UNICEF, about 93 million children around the world have been diagnosed with some form of disability. Over 50% of that number do not attend school at all, which robs them of the right to a better life. In order to meet specific student needs an Individualized Educational Plan (IEP) is created for each child with learning disabilities. This way, the school designs an educational plan they need to implement based on the identified disability. The IEP is designed by a team comprising teachers, specialists (e.g. special education teachers) and family. The role of parents is crucial in this process, because they know their child best, and can provide a lot of valuable information.",
+      "image": "/images/headmistress.jpg"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To educate and train the children so as to enable them to achieve their maximum personal, social, emotional, and vocational adjustment and a rightful place in society."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "A world where children with special needs and typically developing children recognize abilities, not disabilities, and learn together in high-quality, inclusive environments."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Acceptance",
+          "description": "Our school encourages empathy, respect and acceptance by providing classrooms that integrate students with and without special needs.",
+          "icon": "🤝"
+        },
+        {
+          "title": "Community",
+          "description": "Special Care is a family of staff, students, parents and supporters that welcomes one another with joy and love, providing each member of the community with hope and strength.",
+          "icon": "👨‍👩‍👧‍👦"
+        },
+        {
+          "title": "Customized Care",
+          "description": "Our knowledgeable staff meets each child on their level and provides them with individualized lessons and customized care to help them succeed.",
+          "icon": "🎯"
+        },
+        {
+          "title": "Peace of Mind",
+          "description": "We are dedicated to providing every child with a safe learning environment and training of staff to be an open book with parents, offering constant communication and absolute honesty.",
+          "icon": "🛡️"
+        },
+        {
+          "title": "Inspiration",
+          "description": "Our supporters – from staff and parents to volunteers and donors – are invested in building a better future in which each child succeeds and is recognized for their abilities, not disabilities.",
+          "icon": "✨"
+        }
+      ]
+    },
+    "objectives": {
+      "title": "Objectives of the School",
+      "items": [
+        "To develop Life skills, cleanliness and personal hygiene",
+        "To achieve social adjustment through group experiences and activities",
+        "To improve communication skills",
+        "To develop motor coordination through therapy",
+        "To evolve positive attitude towards learning",
+        "To instill self-confidence"
+      ]
+    }
+  },
+  "about": {
+    "title": "About Sankalp School",
+    "subtitle": "Empowering Special Needs Education Since 1997",
+    "history": {
+      "title": "Our History",
+      "content": "The foundation of Sankalp was laid in 1997 with a single room and a single child with special needs with the initiative of NWWA. It was basically established as a day care centre initially only for Naval wards. There were milestones to be set up and achieved like: hiring of professional teachers, laying out of basic structure, provision of facilities and amenities, building and ground and finally the structure of the school to be registered. Never the less, the Naval administration took potential steps to structure SANKALP as school for children with special needs."
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "content": "We believe that every child has the right to avail equal opportunities as others, regardless of the difficulties they face. Special education is of great importance for children with learning disabilities, because it gives them the opportunity to get quality education in line with their unique needs. Special education enables every student to gain a high level of independence and reach their full potential."
+    },
+    "milestones": [
+      {
+        "year": "1997",
+        "title": "Foundation Laid",
+        "description": "Started with a single room and one child with special needs under NWWA initiative"
+      },
+      {
+        "year": "Early 2000s",
+        "title": "Professional Development",
+        "description": "Hiring of professional teachers and laying out basic educational structure"
+      },
+      {
+        "year": "2011",
+        "title": "Own Premises",
+        "description": "Moved to own building in Naval Base, Willingdon Island, Kochi, Kerala"
+      },
+      {
+        "year": "Present",
+        "title": "Complete Facility",
+        "description": "Full school with playground, main building, and occupational therapy extension"
+      }
+    ],
+    "team": {
+      "title": "Our Team",
+      "description": "Our dedicated team of professionals includes special education teachers, therapists, and support staff committed to providing the best care and education for children with special needs.",
+      "members": [
+        {
+          "name": "Mrs. [Headmistress Name]",
+          "position": "Headmistress",
+          "image": "/images/team-1.jpg",
+          "description": "Leading our school with passion and dedication to special needs education"
+        },
+        {
+          "name": "Special Education Team",
+          "position": "Teachers & Therapists",
+          "image": "/images/team-2.jpg",
+          "description": "Qualified professionals creating individualized education plans for each child"
+        }
+      ]
+    }
+  },
+  "admission": {
+    "title": "Admission Process",
+    "subtitle": "Join Our Inclusive Learning Community",
+    "process": [
+      {
+        "step": 1,
+        "title": "Initial Inquiry",
+        "description": "Contact our admission office to discuss your child's needs and our programs"
+      },
+      {
+        "step": 2,
+        "title": "Assessment",
+        "description": "Comprehensive evaluation to understand your child's unique requirements"
+      },
+      {
+        "step": 3,
+        "title": "IEP Development",
+        "description": "Creation of Individualized Educational Plan by our team of specialists"
+      },
+      {
+        "step": 4,
+        "title": "Enrollment",
+        "description": "Complete admission formalities and begin the learning journey"
+      }
+    ],
+    "requirements": [
+      "Birth certificate of the child",
+      "Medical reports and assessment documents",
+      "Previous school records (if applicable)",
+      "Passport size photographs",
+      "Address proof"
+    ],
+    "schoolTimings": {
+      "title": "School Timings",
+      "schedule": [
+        {
+          "day": "Monday to Friday",
+          "time": "9:00 AM - 3:00 PM",
+          "note": "Regular school hours"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM - 12:00 PM",
+          "note": "Special activities and parent meetings"
+        }
+      ]
+    },
+    "facilities": {
+      "title": "Our Facilities",
+      "items": [
+        {
+          "name": "Occupational Therapy Room",
+          "description": "Specialized equipment for motor skill development",
+          "image": "/images/facility-1.jpg"
+        },
+        {
+          "name": "Playground",
+          "description": "Safe outdoor space for physical activities and recreation",
+          "image": "/images/facility-2.jpg"
+        },
+        {
+          "name": "Specialized Classrooms",
+          "description": "Adaptive learning environments for different needs",
+          "image": "/images/facility-3.jpg"
+        },
+        {
+          "name": "Therapy Equipment",
+          "description": "Modern tools for sensory and motor skill development",
+          "image": "/images/facility-4.jpg"
+        }
+      ]
+    }
+  },
+  "specialCurriculum": {
+    "title": "Special Curriculum",
+    "subtitle": "Individualized Education Programs",
+    "description": "Our curriculum is designed to meet the unique needs of each child through Individualized Educational Plans (IEP) created by a team of teachers, specialists, and families.",
+    "programs": [
+      {
+        "title": "Life Skills Development",
+        "description": "Teaching essential daily living skills, cleanliness, and personal hygiene",
+        "features": [
+          "Personal care routines",
+          "Social interaction skills",
+          "Independence building",
+          "Safety awareness"
+        ],
+        "image": "/images/program-1.jpg"
+      },
+      {
+        "title": "Communication Enhancement",
+        "description": "Comprehensive programs to improve verbal and non-verbal communication skills",
+        "features": [
+          "Speech therapy",
+          "Alternative communication methods",
+          "Language development",
+          "Social communication"
+        ],
+        "image": "/images/program-2.jpg"
+      },
+      {
+        "title": "Motor Coordination Therapy",
+        "description": "Physical and occupational therapy to develop motor skills and coordination",
+        "features": [
+          "Fine motor skills",
+          "Gross motor development",
+          "Sensory integration",
+          "Physical therapy"
+        ],
+        "image": "/images/program-3.jpg"
+      },
+      {
+        "title": "Social Adjustment",
+        "description": "Group experiences and activities to promote social skills and adjustment",
+        "features": [
+          "Group activities",
+          "Peer interaction",
+          "Social skills training",
+          "Community integration"
+        ],
+        "image": "/images/program-4.jpg"
+      },
+      {
+        "title": "Learning Attitude Development",
+        "description": "Building positive attitudes towards learning and education",
+        "features": [
+          "Motivation building",
+          "Learning strategies",
+          "Academic skills",
+          "Self-directed learning"
+        ],
+        "image": "/images/program-5.jpg"
+      },
+      {
+        "title": "Self-Confidence Building",
+        "description": "Programs designed to instill self-confidence and self-esteem",
+        "features": [
+          "Achievement recognition",
+          "Skill building",
+          "Positive reinforcement",
+          "Leadership development"
+        ],
+        "image": "/images/program-6.jpg"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Glimpses of Life at Sankalp School",
+    "categories": [
+      {
+        "name": "School Activities",
+        "id": "activities",
+        "images": [
+          {
+            "id": 1,
+            "url": "/images/gallery/activities-1.jpg",
+            "title": "Classroom Learning",
+            "description": "Students engaged in interactive learning sessions"
+          },
+          {
+            "id": 2,
+            "url": "/images/gallery/activities-2.jpg",
+            "title": "Group Activities",
+            "description": "Children participating in social adjustment activities"
+          },
+          {
+            "id": 3,
+            "url": "/images/gallery/activities-3.jpg",
+            "title": "Creative Arts",
+            "description": "Art and craft sessions for skill development"
+          }
+        ]
+      },
+      {
+        "name": "Therapy Sessions",
+        "id": "therapy",
+        "images": [
+          {
+            "id": 4,
+            "url": "/images/gallery/therapy-1.jpg",
+            "title": "Occupational Therapy",
+            "description": "Motor coordination development sessions"
+          },
+          {
+            "id": 5,
+            "url": "/images/gallery/therapy-2.jpg",
+            "title": "Speech Therapy",
+            "description": "Communication skills enhancement"
+          },
+          {
+            "id": 6,
+            "url": "/images/gallery/therapy-3.jpg",
+            "title": "Physical Therapy",
+            "description": "Physical development and coordination"
+          }
+        ]
+      },
+      {
+        "name": "Events",
+        "id": "events",
+        "images": [
+          {
+            "id": 7,
+            "url": "/images/gallery/events-1.jpg",
+            "title": "Annual Day",
+            "description": "Celebrating achievements and talents"
+          },
+          {
+            "id": 8,
+            "url": "/images/gallery/events-2.jpg",
+            "title": "Sports Day",
+            "description": "Physical activities and games"
+          },
+          {
+            "id": 9,
+            "url": "/images/gallery/events-3.jpg",
+            "title": "Cultural Programs",
+            "description": "Showcasing diverse talents and abilities"
+          }
+        ]
+      },
+      {
+        "name": "Facilities",
+        "id": "facilities",
+        "images": [
+          {
+            "id": 10,
+            "url": "/images/gallery/facilities-1.jpg",
+            "title": "Main Building",
+            "description": "Our well-equipped school building"
+          },
+          {
+            "id": 11,
+            "url": "/images/gallery/facilities-2.jpg",
+            "title": "Playground",
+            "description": "Safe outdoor space for activities"
+          },
+          {
+            "id": 12,
+            "url": "/images/gallery/facilities-3.jpg",
+            "title": "Therapy Room",
+            "description": "Specialized occupational therapy facility"
+          }
+        ]
+      }
+    ]
+  },
+  "studentCorner": {
+    "title": "Student Corner",
+    "subtitle": "Celebrating Our Students' Achievements",
+    "sections": [
+      {
+        "title": "Student Achievements",
+        "description": "Recognizing the progress and accomplishments of our special students",
+        "content": [
+          {
+            "title": "Communication Milestones",
+            "description": "Students making remarkable progress in speech and communication",
+            "image": "/images/students/achievement-1.jpg"
+          },
+          {
+            "title": "Independence Skills",
+            "description": "Children learning essential life skills and gaining independence",
+            "image": "/images/students/achievement-2.jpg"
+          },
+          {
+            "title": "Social Integration",
+            "description": "Students successfully participating in group activities and social events",
+            "image": "/images/students/achievement-3.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Special Programs",
+        "description": "Unique initiatives designed for our students' holistic development",
+        "content": [
+          {
+            "title": "Art Therapy Sessions",
+            "description": "Creative expression through art and craft activities",
+            "image": "/images/students/program-1.jpg"
+          },
+          {
+            "title": "Music and Movement",
+            "description": "Rhythmic activities for sensory and motor development",
+            "image": "/images/students/program-2.jpg"
+          },
+          {
+            "title": "Life Skills Training",
+            "description": "Practical skills for daily living and independence",
+            "image": "/images/students/program-3.jpg"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "title": "Annual Sports Meet",
+        "date": "March 2024",
+        "description": "A day of fun activities and games promoting physical fitness and team spirit",
+        "image": "/images/events/sports-meet.jpg"
+      },
+      {
+        "title": "Cultural Festival",
+        "date": "December 2023",
+        "description": "Showcasing the diverse talents and abilities of our students",
+        "image": "/images/events/cultural-fest.jpg"
+      },
+      {
+        "title": "Parent-Child Workshop",
+        "date": "January 2024",
+        "description": "Interactive sessions strengthening the bond between parents and children",
+        "image": "/images/events/parent-workshop.jpg"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch with Sankalp School",
+    "address": {
+      "name": "Sankalp School",
+      "street": "Naval Base, Willingdon Island",
+      "city": "Kochi",
+      "state": "Kerala",
+      "pincode": "682003",
+      "country": "India"
+    },
+    "contactInfo": [
+      {
+        "type": "phone",
+        "value": "+91 [Phone Number]",
+        "icon": "📞"
+      },
+      {
+        "type": "email",
+        "value": "info@sankalpkochi.edu.in",
+        "icon": "✉️"
+      },
+      {
+        "type": "website",
+        "value": "www.sankalpkochi.edu.in",
+        "icon": "🌐"
+      }
+    ],
+    "timings": [
+      {
+        "day": "Monday - Friday",
+        "time": "9:00 AM - 3:00 PM"
+      },
+      {
+        "day": "Saturday",
+        "time": "9:00 AM - 12:00 PM"
+      },
+      {
+        "day": "Sunday",
+        "time": "Closed"
+      }
+    ],
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.0543676879897!2d76.26139731434622!3d10.03396757294948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d1c7c2c1c1b%3A0x1b1b1b1b1b1b1b1b!2sWillingdon%20Island%2C%20Kochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+  }
+} 
