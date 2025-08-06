@@ -22,27 +22,14 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Sankalp School</h3>
-                <p className="text-gray-400 text-sm">Excellence in Education</p>
+                <p className="text-gray-400 text-sm">Embrace the Unique!</p>
               </div>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Nurturing young minds with quality education, moral values, and innovative learning approaches. 
-              Building tomorrow's leaders through excellence and character development.
+              Nurturing young minds with quality education, moral values, and
+              innovative learning approaches. Building tomorrow's leaders
+              through excellence and character development.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center hover:bg-primary-700 transition-colors">
-                <span className="text-xs font-bold">f</span>
-              </a>
-              <a href="#" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center hover:bg-primary-700 transition-colors">
-                <span className="text-xs font-bold">t</span>
-              </a>
-              <a href="#" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center hover:bg-primary-700 transition-colors">
-                <span className="text-xs font-bold">i</span>
-              </a>
-              <a href="#" className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center hover:bg-primary-700 transition-colors">
-                <span className="text-xs font-bold">y</span>
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -51,8 +38,8 @@ const Footer = () => {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.name}>
-                  <Link 
-                    to={link.path} 
+                  <Link
+                    to={link.path}
                     className="text-gray-300 hover:text-white transition-colors duration-200"
                   >
                     {link.name}
@@ -68,7 +55,11 @@ const Footer = () => {
             <div className="space-y-3 text-gray-300">
               <div>
                 <p className="font-medium text-white">Address</p>
-                <p className="text-sm">123 Education Street<br />Knowledge City, State - 123456</p>
+                <p className="text-sm">
+                  123 Education Street
+                  <br />
+                  Knowledge City, State - 123456
+                </p>
               </div>
               <div>
                 <p className="font-medium text-white">Phone</p>
@@ -80,7 +71,11 @@ const Footer = () => {
               </div>
               <div>
                 <p className="font-medium text-white">Office Hours</p>
-                <p className="text-sm">Mon - Fri: 8:00 AM - 4:00 PM<br />Sat: 8:00 AM - 12:00 PM</p>
+                <p className="text-sm">
+                  Mon - Fri: 8:00 AM - 4:00 PM
+                  <br />
+                  Sat: 8:00 AM - 12:00 PM
+                </p>
               </div>
             </div>
           </div>
@@ -92,14 +87,29 @@ const Footer = () => {
             © {new Date().getFullYear()} Sankalp School. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Sitemap</a>
+            <a
+              href="#"
+              className="text-gray-400 hover:text-white text-sm transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="#"
+              className="text-gray-400 hover:text-white text-sm transition-colors"
+            >
+              Terms of Service
+            </a>
+            <a
+              href="#"
+              className="text-gray-400 hover:text-white text-sm transition-colors"
+            >
+              Sitemap
+            </a>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
 export default Footer 

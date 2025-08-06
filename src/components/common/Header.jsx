@@ -6,14 +6,14 @@ const Header = () => {
   const location = useLocation()
 
   const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Admission', href: '/admission' },
-    { name: 'Special Curriculum', href: '/special-curriculum' },
-    { name: 'Gallery', href: '/gallery' },
-    { name: 'Student Corner', href: '/student-corner' },
-    { name: 'Contact', href: '/contact' },
-  ]
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Admission", href: "/admission" },
+    { name: "Special Curriculum", href: "/special-curriculum" },
+    { name: "Gallery", href: "/gallery" },
+    { name: "Student Corner", href: "/student-corner" },
+    { name: "Contact Us", href: "/contact" },
+  ];
 
   const isActive = (path) => location.pathname === path
 

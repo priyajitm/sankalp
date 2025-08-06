@@ -47,4 +47,35 @@
   .text-body {
     @apply text-gray-600 leading-relaxed;
   }
+
+  .bg-primary {
+    @apply bg-[#efe1d454];
+  }
+
+  .bg-secondary {
+    @apply bg-[#e4cba454];
+  }
+
+  .section-primary {
+    @apply py-16 px-4 sm:px-6 lg:px-8 bg-[#efe1d454]
+  }
+
+  .section-secondary {
+    @apply py-16 px-4 sm:px-6 lg:px-8 bg-[#e4cba454]
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -32,28 +32,22 @@
       ]
     },
     "aboutSchool": {
-      "title": "Explore Sankalp Kochi",
-      "content": "The foundation of Sankalp was laid in 1997 with a single room and a single child with special needs with the initiative of NWWA. It was basically established as a day care centre initially only for Naval wards. There were milestones to be set up and achieved like: hiring of professional teachers, laying out of basic structure, provision of facilities and amenities, building and ground and finally the structure of the school to be registered. Never the less, the Naval administration took potential steps to structure SANKALP as school for children with special needs. In 2011, Sankalp took a huge leap to have its own premises and a school building located in Naval Base in Willingdon Island, Kochi, Kerala. Presently, the school premises consisting a Play ground, school building with two sections namely the main building and the extension of occupational therapy room.",
       "highlights": [
         {
-          "icon": "🏫",
           "title": "Established 1997",
-          "description": "Started with a single room and one child, now a full-fledged special needs school"
+          "description": "The foundation of Sankalp, Kochi was laid in 1997 with a single room and a single child with special needs with the initiative of NWWA-SR (Naval Welfare and Wellness Association – Southern Region). It was initially established as a day care centre only for Naval Wards. Now the School is open to larger community."
         },
         {
-          "icon": "🏢",
           "title": "Own Premises Since 2011",
-          "description": "Located in Naval Base, Willingdon Island, Kochi, Kerala"
+          "description": "Sankalp has its own beautiful school building located in Naval Base, Kochi. The school facility is housed in a modern infrastructure with latest amenities for supporting the unique needs of each child studying here."
         },
         {
-          "icon": "🏃‍♂️",
           "title": "Complete Facilities",
-          "description": "Playground, main building, and occupational therapy extension"
+          "description": "Children with special needs are nurtured in a complete barrier free school building of Sankalp. Facilities include Sensory Pathway, Sensory Integration Room, Occupational Therapy Room, Physiotherapy Room and a barrier free playground."
         },
         {
-          "icon": "👥",
           "title": "Professional Care",
-          "description": "Qualified teachers and specialists providing individualized attention"
+          "description": "Sankalp specializes in care for children with autism, developmental delays. Services also include Speech therapy, Occupational therapy, Behavioural therapy, Physiotherapy and Counselling to enhance Motor, Cognitive, and Social skills."
         }
       ]
     },
@@ -102,6 +96,40 @@
         }
       ]
     },
+    "feedback": {
+      "title": "Parent's Feedback",
+      "description": "We value your feedback and are committed to providing the best possible education and support for our students. Please share your thoughts and suggestions with us so we can continue to improve our services.",
+      "items": [
+        {
+          "title": "Mrs. Kismati Devi",
+          "description": "Sankalp school is a fine example of an institution which strives to remove the stigma of being called a ‘Special Child’. Each ward is treated as a unique individual with dignity, focusing on grooming and enhancing the hidden talents in them. I appreciate Sankalp for boosting my daughter’s confidence and growth through a sustained customized curriculum over the years. I also want to express that the well-maintained infrastructure, supportive staff and excellent transportive service have made our experience with the school very positive."
+        },
+        {
+          "title": "Mr. Pathak Raj Kamal",
+          "description": "The teachers of Sankalp are very supportive and caring. Parents are also highly appreciated by giving them opportunity to take part in different programs of the school. The medical camps organised in the school in regular intervals really helped the children to get a better health benefit."
+        },
+        {
+          "title": "Mrs. Anureet",
+          "description": "We had enrolled our child in Sankalp since last year and it has been a fruitful year for us. He has started walking and had become more interactive with people around him. It is a wonderful place with all necessary equipment’s which help children with physical and intellectual delays to achieve the desired goal. Under abled guidance of the staff, we are hopeful that our child will achieve more."
+        },
+        {
+          "title": "Mr. Ajay Kumar",
+          "description": "Sankalp plays a vital role in shaping the lives of children with special needs and support their families with compassionate experience and dedicated caring staff. Sankalp also provides guidance and supportive environment for children by offering them a sense of belonging. Various therapies and innovative adaptive learning procedures practiced at the school empower children to reach their highest potential."
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": "About Sankalp School",
+    "subtitle": "Empowering Special Needs Education Since 1997",
+    "history": {
+      "title": "Our History",
+      "content": "Sankalp is the name given to schools for special children of Naval personnel which is an amazing initiative of Naval welfare and wellness association (NWWA). The school is set up at four locations in the country viz. Delhi, Mumbai, Kochi and Vishakapatnam. Sankalp, Kochi was Established in 1997 with a single child and a single classroom at NWWA office. Thereafter, the school gets its own premises in 2011 and is currently situated in the Naval base at Southern Naval command. The infrastructure at the school consists of a classroom, physiotherapy room and operational therapy room. The existing sensory park at the school is a thoughtfully designed space aimed at supporting the sensory development of children with special needs. This park features various elements like texture surface, which is tailored to engage the children’s sense of touch hearing insight these spaces provide a safe environment, where children can practice emotional regulation and sensory processing."
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "content": "We believe that every child has the right to avail equal opportunities as others, regardless of the difficulties they face. Special education is of great importance for children with learning disabilities, because it gives them the opportunity to get quality education in line with their unique needs. Special education enables every student to gain a high level of independence and reach their full potential."
+    },
     "objectives": {
       "title": "Objectives of the School",
       "items": [
@@ -112,41 +140,7 @@
         "To evolve positive attitude towards learning",
         "To instill self-confidence"
       ]
-    }
-  },
-  "about": {
-    "title": "About Sankalp School",
-    "subtitle": "Empowering Special Needs Education Since 1997",
-    "history": {
-      "title": "Our History",
-      "content": "The foundation of Sankalp was laid in 1997 with a single room and a single child with special needs with the initiative of NWWA. It was basically established as a day care centre initially only for Naval wards. There were milestones to be set up and achieved like: hiring of professional teachers, laying out of basic structure, provision of facilities and amenities, building and ground and finally the structure of the school to be registered. Never the less, the Naval administration took potential steps to structure SANKALP as school for children with special needs."
     },
-    "philosophy": {
-      "title": "Our Philosophy",
-      "content": "We believe that every child has the right to avail equal opportunities as others, regardless of the difficulties they face. Special education is of great importance for children with learning disabilities, because it gives them the opportunity to get quality education in line with their unique needs. Special education enables every student to gain a high level of independence and reach their full potential."
-    },
-    "milestones": [
-      {
-        "year": "1997",
-        "title": "Foundation Laid",
-        "description": "Started with a single room and one child with special needs under NWWA initiative"
-      },
-      {
-        "year": "Early 2000s",
-        "title": "Professional Development",
-        "description": "Hiring of professional teachers and laying out basic educational structure"
-      },
-      {
-        "year": "2011",
-        "title": "Own Premises",
-        "description": "Moved to own building in Naval Base, Willingdon Island, Kochi, Kerala"
-      },
-      {
-        "year": "Present",
-        "title": "Complete Facility",
-        "description": "Full school with playground, main building, and occupational therapy extension"
-      }
-    ],
     "management": {
       "title": "School Management",
       "members": [
@@ -307,25 +301,45 @@
           "name": "Physiotherapy Room",
           "description": "Equipped with specialized equipment for physical therapy and motor skill development",
           "image": "/images/facilities/physiotherapy-room.jpg",
-          "features": ["Exercise equipment", "Mat work areas", "Mobility aids", "Strength training tools"]
+          "features": [
+            "Exercise equipment",
+            "Mat work areas",
+            "Mobility aids",
+            "Strength training tools"
+          ]
         },
         {
           "name": "Occupational Therapy Room",
           "description": "Specialized space for fine motor skills, sensory integration, and daily living activities",
           "image": "/images/facilities/occupational-therapy-room.jpg",
-          "features": ["Sensory equipment", "Fine motor tools", "Adaptive technology", "Activity stations"]
+          "features": [
+            "Sensory equipment",
+            "Fine motor tools",
+            "Adaptive technology",
+            "Activity stations"
+          ]
         },
         {
           "name": "Sensory Park",
           "description": "Outdoor sensory experience area with natural elements and interactive features",
           "image": "/images/facilities/sensory-park.jpg",
-          "features": ["Textured pathways", "Sensory gardens", "Interactive play elements", "Calm zones"]
+          "features": [
+            "Textured pathways",
+            "Sensory gardens",
+            "Interactive play elements",
+            "Calm zones"
+          ]
         },
         {
           "name": "Sensory Room",
           "description": "Indoor controlled environment for sensory regulation and therapeutic activities",
           "image": "/images/facilities/sensory-room.jpg",
-          "features": ["Lighting controls", "Sound therapy", "Tactile materials", "Relaxation equipment"]
+          "features": [
+            "Lighting controls",
+            "Sound therapy",
+            "Tactile materials",
+            "Relaxation equipment"
+          ]
         }
       ]
     }
@@ -333,7 +347,7 @@
   "specialCurriculum": {
     "title": "Special Curriculum",
     "subtitle": "Individualized Education Programs",
-    "description": "Our curriculum is designed to meet the unique needs of each child through Individualized Educational Plans (IEP) created by a team of teachers, specialists, and families.",
+    "description": "Special curriculum activities extend beyond the confines of traditional training system. It plays a vital role in shaping our children. These activities provide invaluable opportunities for personal growth and skill development which help in the enrichment of the learning skills of our children. Special curriculum activities encompass a wide range of pursuits which gives a chance to our children to explore their interest and talent in various activities.",
     "programs": [
       {
         "title": "Special Education",
@@ -386,19 +400,6 @@
           "Stress reduction and relaxation"
         ],
         "image": "/images/programs/musical-therapy.jpg"
-      },
-      {
-        "title": "Hydro Therapy",
-        "description": "Water-based therapeutic activities to improve physical function and provide sensory experiences",
-        "features": [
-          "Water-based exercise therapy",
-          "Sensory stimulation in water",
-          "Muscle relaxation and pain relief",
-          "Improved circulation and mobility",
-          "Joint movement enhancement",
-          "Confidence building in water"
-        ],
-        "image": "/images/programs/hydro-therapy.jpg"
       },
       {
         "title": "Vocational Training",
@@ -519,7 +520,7 @@
   },
   "studentCorner": {
     "title": "Student Corner",
-    "subtitle": "Celebrating Our Students' Achievements and Activities",
+    "subtitle": "Each one of us is a creation of God, blessed with many unique talents, and worthy of success in all that we hope to achieve. As a community we thrive and flourish when we lean on each other, be the cheerleaders for achieving greater heights as a team. At Sankalp, we conduct regular activities for our wards to shine and showcase their talents. We often get pleasantly surprised by some new hidden talent surfacing during these events!",
     "sections": [
       {
         "title": "Student Achievements",
@@ -604,9 +605,9 @@
           ]
         },
         {
-          "title": "Intra School Sports Competition",
+          "title": "Inter School Sports Competition",
           "description": "Internal sports competitions promoting physical fitness, team spirit, and healthy competition among students",
-          "type": "Intra School Event",
+          "type": "Inter School Competition",
           "highlights": [
             "Adapted sports activities for all abilities",
             "Team building and cooperation",
@@ -771,7 +772,7 @@
       },
       {
         "type": "phone",
-        "label": "Phone 2", 
+        "label": "Phone 2",
         "value": "+91 9846185280",
         "displayValue": "9846185280",
         "icon": "📞",
@@ -788,7 +789,7 @@
         },
         {
           "level": "Primary and above",
-          "time": "9:00 hrs to 13:00 hrs", 
+          "time": "9:00 hrs to 13:00 hrs",
           "note": "Structured learning with individualized support"
         }
       ]

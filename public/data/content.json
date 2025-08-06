@@ -32,33 +32,27 @@
       ]
     },
     "aboutSchool": {
-      "title": "Explore Sankalp Kochi",
-      "content": "The foundation of Sankalp was laid in 1997 with a single room and a single child with special needs with the initiative of NWWA. It was basically established as a day care centre initially only for Naval wards. There were milestones to be set up and achieved like: hiring of professional teachers, laying out of basic structure, provision of facilities and amenities, building and ground and finally the structure of the school to be registered. Never the less, the Naval administration took potential steps to structure SANKALP as school for children with special needs. In 2011, Sankalp took a huge leap to have its own premises and a school building located in Naval Base in Willingdon Island, Kochi, Kerala. Presently, the school premises consisting a Play ground, school building with two sections namely the main building and the extension of occupational therapy room.",
       "highlights": [
         {
-          "icon": "🏫",
           "title": "Established 1997",
-          "description": "Started with a single room and one child, now a full-fledged special needs school"
+          "description": "The foundation of Sankalp, Kochi was laid in 1997 with a single room and a single child with special needs with the initiative of NWWA-SR (Naval Welfare and Wellness Association – Southern Region). It was initially established as a day care centre only for Naval Wards. Now the School is open to larger community."
         },
         {
-          "icon": "🏢",
           "title": "Own Premises Since 2011",
-          "description": "Located in Naval Base, Willingdon Island, Kochi, Kerala"
+          "description": "Sankalp has its own beautiful school building located in Naval Base, Kochi. The school facility is housed in a modern infrastructure with latest amenities for supporting the unique needs of each child studying here."
         },
         {
-          "icon": "🏃‍♂️",
           "title": "Complete Facilities",
-          "description": "Playground, main building, and occupational therapy extension"
+          "description": "Children with special needs are nurtured in a complete barrier free school building of Sankalp. Facilities include Sensory Pathway, Sensory Integration Room, Occupational Therapy Room, Physiotherapy Room and a barrier free playground."
         },
         {
-          "icon": "👥",
           "title": "Professional Care",
-          "description": "Qualified teachers and specialists providing individualized attention"
+          "description": "Sankalp specializes in care for children with autism, developmental delays. Services also include Speech therapy, Occupational therapy, Behavioural therapy, Physiotherapy and Counselling to enhance Motor, Cognitive, and Social skills."
         }
       ]
     },
     "headmistressMessage": {
-      "title": "Headmistress Message",  
+      "title": "Headmistress Message",
       "name": "Mrs. Soma Chakrabarti",
       "position": "Headmistress, Sankalp School",
       "message": "Every child has the right to avail equal opportunities as others, regardless of the difficulties they face. Special education is of great importance for children with learning disabilities, because it gives them the opportunity to get quality education in line with their unique needs. Special education enables every student to gain a high level of independence and reach their full potential. According to UNICEF, about 93 million children around the world have been diagnosed with some form of disability. Over 50% of that number do not attend school at all, which robs them of the right to a better life. In order to meet specific student needs an Individualized Educational Plan (IEP) is created for each child with learning disabilities. This way, the school designs an educational plan they need to implement based on the identified disability. The IEP is designed by a team comprising teachers, specialists (e.g. special education teachers) and family. The role of parents is crucial in this process, because they know their child best, and can provide a lot of valuable information.",
@@ -119,7 +113,7 @@
     "subtitle": "Empowering Special Needs Education Since 1997",
     "history": {
       "title": "Our History",
-      "content": "The foundation of Sankalp was laid in 1997 with a single room and a single child with special needs with the initiative of NWWA. It was basically established as a day care centre initially only for Naval wards. There were milestones to be set up and achieved like: hiring of professional teachers, laying out of basic structure, provision of facilities and amenities, building and ground and finally the structure of the school to be registered. Never the less, the Naval administration took potential steps to structure SANKALP as school for children with special needs."
+      "content": "Sankalp is the name given to schools for special children of Naval personnel which is an amazing initiative of Naval welfare and wellness association (NWWA). The school is set up at four locations in the country viz. Delhi, Mumbai, Kochi and Vishakapatnam. Sankalp, Kochi was Established in 1997 with a single child and a single classroom at NWWA office. Thereafter, the school gets its own premises in 2011 and is currently situated in the Naval base at Southern Naval command. The infrastructure at the school consists of a classroom, physiotherapy room and operational therapy room. The existing sensory park at the school is a thoughtfully designed space aimed at supporting the sensory development of children with special needs. This park features various elements like texture surface, which is tailored to engage the children’s sense of touch hearing insight these spaces provide a safe environment, where children can practice emotional regulation and sensory processing."
     },
     "philosophy": {
       "title": "Our Philosophy",
