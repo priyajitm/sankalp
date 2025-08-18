@@ -21,6 +21,28 @@ const About = () => {
   if (isLoading) return <Loader />;
   if (!data) return <div>Error loading content</div>;
 
+  // Image arrays for each section
+  const managementImages = [
+    "/images/management/15.png",
+    "/images/management/16.png",
+    "/images/management/17.png",
+    "/images/management/18.png",
+  ];
+
+  const psaImages = [
+    "/images/psa/15.png",
+    "/images/psa/17.png",
+    "/images/psa/18.png",
+  ];
+
+  const staffImages = [
+    "/images/dedicated-staff/15.png",
+    "/images/dedicated-staff/19.png",
+    "/images/dedicated-staff/20.png",
+    "/images/dedicated-staff/21.png",
+    "/images/dedicated-staff/22.png",
+  ];
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
@@ -74,14 +96,12 @@ const About = () => {
                 className="bg-primary rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow"
               >
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                    <span className="text-blue-600 font-semibold text-lg">
-                      {member.name
-                        .split(" ")
-                        .map((n) => n[0])
-                        .join("")
-                        .slice(0, 2)}
-                    </span>
+                  <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+                    <img
+                      src={managementImages[index % managementImages.length]}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">
@@ -115,14 +135,12 @@ const About = () => {
                   key={index}
                   className="bg-orange-50 rounded-lg p-6 text-center"
                 >
-                  <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-orange-600 font-semibold text-lg">
-                      {member.name
-                        .split(" ")
-                        .map((n) => n[0])
-                        .join("")
-                        .slice(0, 2)}
-                    </span>
+                  <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4">
+                    <img
+                      src={psaImages[index % psaImages.length]}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-1">
                     {member.name}
@@ -150,18 +168,12 @@ const About = () => {
                 key={index}
                 className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow"
               >
-                <div className="aspect-w-4 aspect-h-3 bg-gradient-to-br from-blue-100 to-orange-100">
-                  <div className="w-full h-48 flex items-center justify-center">
-                    <div className="w-20 h-20 bg-blue-200 rounded-full flex items-center justify-center">
-                      <span className="text-blue-600 font-bold text-2xl">
-                        {member.name
-                          .split(" ")
-                          .map((n) => n[0])
-                          .join("")
-                          .slice(0, 2)}
-                      </span>
-                    </div>
-                  </div>
+                <div className="aspect-w-4 aspect-h-3">
+                  <img
+                    src={staffImages[index % staffImages.length]}
+                    alt={member.name}
+                    className="w-full h-48 object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <h3 className="font-semibold text-gray-900 mb-1">

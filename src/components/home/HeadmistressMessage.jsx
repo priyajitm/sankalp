@@ -13,20 +13,15 @@ const HeadmistressMessage = ({ data }) => {
             {/* Headmistress Image */}
             <div className="mb-6">
               <div className="relative mx-auto w-64 h-64">
-                <div className="w-full h-full bg-gradient-to-br from-primary-200 to-secondary-200 rounded-full flex items-center justify-center shadow-lg">
-                  <div className="text-center text-primary-600">
-                    <svg
-                      className="w-20 h-20 mx-auto mb-2"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 7V9L21 9ZM9 7V9L3 9V7L9 7ZM12 20C7 20 2 19 2 14V12C2 12 6 10 12 10S22 12 22 12V14C22 19 17 20 12 20Z" />
-                    </svg>
-                    <p className="text-sm font-medium">Headmistress Photo</p>
-                  </div>
+                <div className="w-full h-full bg-gradient-to-br from-primary-200 to-secondary-200 rounded-full flex items-center justify-center shadow-lg overflow-hidden">
+                  <img
+                    src={"/images/15.png"}
+                    alt={`Headmistress Photo`}
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
                 {/* Decorative Ring */}
-                <div className="absolute inset-0 border-4 border-primary-300 rounded-full animate-pulse opacity-50"></div>
+                <div className="absolute inset-0 border-4 border-primary-300 rounded-full animate-pulse opacity-50 pointer-events-none"></div>
               </div>
             </div>
 
