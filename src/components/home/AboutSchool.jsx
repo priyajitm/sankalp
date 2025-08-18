@@ -5,9 +5,9 @@ const AboutSchool = ({ data }) => {
 
   // Import the slider images
   const sliderImages = [
-    "/images/slider/1.png",
-    "/images/slider/2.png",
-    "/images/slider/3.png",
+    "images/slider/1.png",
+    "images/slider/2.png",
+    "images/slider/3.png",
   ];
 
   // Auto-advance slider

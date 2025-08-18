@@ -21,26 +21,28 @@ const About = () => {
   if (isLoading) return <Loader />;
   if (!data) return <div>Error loading content</div>;
 
-  // Image arrays for each section
+  // Management team images
   const managementImages = [
-    "/images/management/15.png",
-    "/images/management/16.png",
-    "/images/management/17.png",
-    "/images/management/18.png",
+    "images/management/15.png",
+    "images/management/16.png",
+    "images/management/17.png",
+    "images/management/18.png",
   ];
 
+  // PSA images
   const psaImages = [
-    "/images/psa/15.png",
-    "/images/psa/17.png",
-    "/images/psa/18.png",
+    "images/psa/15.png",
+    "images/psa/17.png",
+    "images/psa/18.png",
   ];
 
+  // Dedicated staff images
   const staffImages = [
-    "/images/dedicated-staff/15.png",
-    "/images/dedicated-staff/19.png",
-    "/images/dedicated-staff/20.png",
-    "/images/dedicated-staff/21.png",
-    "/images/dedicated-staff/22.png",
+    "images/dedicated-staff/15.png",
+    "images/dedicated-staff/19.png",
+    "images/dedicated-staff/20.png",
+    "images/dedicated-staff/21.png",
+    "images/dedicated-staff/22.png",
   ];
 
   return (

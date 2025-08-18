@@ -23,7 +23,7 @@ const HeroSlider = ({ slides }) => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/images/hero-1.jpg')",
+          backgroundImage: "url('images/hero-1.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

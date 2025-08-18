@@ -148,7 +148,7 @@ const Admission = () => {
                 {/* Facility Image */}
                 <div className="w-full h-64 overflow-hidden">
                   <img
-                    src={`/images/facilities/${23 + index}.png`}
+                    src={`images/facilities/${23 + index}.png`}
                     alt={facility.name}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     onError={(e) => {

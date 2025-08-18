@@ -15,7 +15,7 @@ const HeadmistressMessage = ({ data }) => {
               <div className="relative mx-auto w-64 h-64">
                 <div className="w-full h-full bg-gradient-to-br from-primary-200 to-secondary-200 rounded-full flex items-center justify-center shadow-lg overflow-hidden">
                   <img
-                    src={"/images/15.png"}
+                    src={"images/15.png"}
                     alt={`Headmistress Photo`}
                     className="w-full h-full object-cover rounded-full"
                   />

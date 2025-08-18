@@ -7,11 +7,11 @@ const SpecialCurriculum = () => {
 
   // Array of available images from special-curriculam folder
   const programImages = [
-    "/images/special-curriculam/27.png",
-    "/images/special-curriculam/28.png",
-    "/images/special-curriculam/29.png",
-    "/images/special-curriculam/30.png",
-    "/images/special-curriculam/31.png",
+    "images/special-curriculam/27.png",
+    "images/special-curriculam/28.png",
+    "images/special-curriculam/29.png",
+    "images/special-curriculam/30.png",
+    "images/special-curriculam/31.png",
   ];
 
   useEffect(() => {
