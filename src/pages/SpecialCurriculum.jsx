@@ -32,7 +32,7 @@ const SpecialCurriculum = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-orange-500 text-white py-20">
+      <section className="bg-[#524b4d] text-white py-20">
         <div className="container-custom text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
             {data.title}
@@ -47,7 +47,7 @@ const SpecialCurriculum = () => {
       </section>
 
       {/* Programs */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-[#b1a08f7a]">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {data.programs.map((program, index) => (
@@ -98,7 +98,7 @@ const SpecialCurriculum = () => {
       </section>
 
       {/* IEP Information */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-primary">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="heading-secondary mb-8">
@@ -190,7 +190,7 @@ const SpecialCurriculum = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="section-padding bg-blue-600 text-white">
+      <section className="section-padding bg-[#524b4d] text-white">
         <div className="container-custom text-center">
           <h2 className="text-3xl font-bold mb-4">
             Interested in Our Programs?

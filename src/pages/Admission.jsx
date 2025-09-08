@@ -23,7 +23,7 @@ const Admission = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-[#524b4d] text-white py-20">
         <div className="container-custom text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">{data.title}</h1>
           <p className="text-xl text-blue-100">{data.subtitle}</p>
@@ -31,7 +31,7 @@ const Admission = () => {
       </section>
 
       {/* Admission Information Section */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-[#b1a08f7a]">
         <div className="container-custom">
           <h2 className="heading-secondary text-center mb-12">
             {data.admissionInfo.title}
@@ -56,7 +56,7 @@ const Admission = () => {
       </section>
 
       {/* Admission Process */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-primary">
         <div className="container-custom">
           <h2 className="heading-secondary text-center mb-12">
             Admission Process
@@ -67,7 +67,7 @@ const Admission = () => {
                 key={index}
                 className="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-shadow"
               >
-                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
+                <div className="w-16 h-16 bg-gradient-to-r from-[#524b4d] to-[#b1a08f7a] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
                   {step.step}
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-3">
@@ -83,7 +83,7 @@ const Admission = () => {
       </section>
 
       {/* Requirements and School Timings */}
-      <section className="section-padding bg-white">
+      <section className="section-primary">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Requirements */}
@@ -102,7 +102,7 @@ const Admission = () => {
             </div>
 
             {/* School Timings */}
-            <div className="bg-orange-50 rounded-xl p-8">
+            <div className="bg-gray-50 rounded-xl p-8">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">
                 {data.schoolTimings.title}
               </h3>
@@ -130,7 +130,7 @@ const Admission = () => {
       </section>
 
       {/* Facilities Section */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-primary bg-[#b1a08f7a]">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="heading-secondary">{data.facilities.title}</h2>
@@ -212,7 +212,7 @@ const Admission = () => {
       </section>
 
       {/* Contact for Admission */}
-      <section className="section-padding bg-blue-600 text-white">
+      <section className="section-padding bg-[#524b4d] text-white">
         <div className="container-custom text-center">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Begin Your Child's Journey?

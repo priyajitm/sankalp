@@ -1,47 +1,91 @@
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const HeroSlider = ({ slides }) => {
-  if (!slides || slides.length === 0) {
-    return (
-      <div className="relative h-[600px] bg-gradient-to-br from-blue-600 to-orange-500 flex items-center justify-center">
-        <div className="text-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Welcome to Sankalp School
-          </h1>
-          <p className="text-xl mb-8">Empowering Special Needs Education</p>
-          <Link to="/about" className="btn-primary">
-            Learn More
-          </Link>
-        </div>
-      </div>
-    );
-  }
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Import the slider images
+  const sliderImages = [
+    "images/slider/1.png",
+    "images/slider/2.png",
+    "images/slider/3.png",
+  ];
+
+  // Auto-advance slider
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex(
+        (prevIndex) => (prevIndex + 1) % sliderImages.length
+      );
+    }, 5000); // Change image every 5 seconds
+
+    return () => clearInterval(interval);
+  }, [sliderImages.length]);
+
+  const goToImage = (index) => {
+    setCurrentImageIndex(index);
+  };
 
   return (
     <div className="relative h-[600px] overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: "url('images/hero-1.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      {/* Background Image Slider */}
+      <div className="absolute inset-0">
+        {sliderImages.map((image, index) => (
+          <div
+            key={index}
+            className={`absolute inset-0 w-full h-full transition-opacity duration-500 ${
+              index === currentImageIndex ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <div
+              className="w-full h-full bg-cover bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url('${image}')`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            />
+          </div>
+        ))}
+
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-600/50 to-orange-500/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-black/60 to-black/40"></div>
+      </div>
+
+      {/* Dots Indicator */}
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3 z-30">
+        {sliderImages.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => goToImage(index)}
+            className={`w-3 h-3 rounded-full transition-all duration-200 cursor-pointer ${
+              index === currentImageIndex
+                ? "bg-white scale-125 shadow-lg"
+                : "bg-white/60 hover:bg-white/80"
+            }`}
+          />
+        ))}
       </div>
 
       {/* Content */}
-      <div className="relative h-full flex items-center justify-center text-center text-white px-4">
+      <div className="relative h-full flex items-center justify-center text-center text-white px-4 z-20">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
+          <h1
+            className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in text-white drop-shadow-2xl"
+            style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.8)" }}
+          >
             Welcome to Sankalp School
           </h1>
-          <h2 className="text-xl md:text-2xl mb-6 text-blue-100 animate-slide-up">
+          <h2
+            className="text-xl md:text-2xl mb-6 text-white animate-slide-up font-semibold drop-shadow-xl"
+            style={{ textShadow: "1px 1px 3px rgba(0,0,0,0.7)" }}
+          >
             Empowering Children with Special Needs Since 1997
           </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-up">
+          <p
+            className="text-lg mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-up text-white drop-shadow-lg"
+            style={{ textShadow: "1px 1px 2px rgba(0,0,0,0.6)" }}
+          >
             A world where children with special needs and typically developing
             children recognize abilities, not disabilities, and learn together
             in high-quality, inclusive environments.

@@ -46,9 +46,9 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="text-white py-20 bg-[#524b4d]">
         <div className="container-custom text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">{data.title}</h1>
           <p className="text-xl text-blue-100">{data.subtitle}</p>
@@ -62,21 +62,24 @@ const About = () => {
             <h2 className="heading-secondary text-center mb-8">
               {data.history.title}
             </h2>
-            <p className="text-body text-lg leading-relaxed">
+            <p className="text-body text-lg leading-relaxed text-justify">
               {data.history.content}
+            </p>
+            <p className="text-body text-lg leading-relaxed text-justify mt-8">
+              {data.currentInfra.content}
             </p>
           </div>
         </div>
       </section>
 
       {/* Philosophy Section */}
-      <section className="section-secondary">
+      <section className="section-primary">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="heading-secondary text-center mb-8">
               {data.philosophy.title}
             </h2>
-            <p className="text-body text-lg leading-relaxed">
+            <p className="text-body text-lg leading-relaxed text-justify">
               {data.philosophy.content}
             </p>
           </div>
@@ -86,7 +89,7 @@ const About = () => {
       <Objectives data={data?.objectives} />
 
       {/* School Management Section */}
-      <section className="section-secondary">
+      <section className="section-secondary bg-[#b1a08f7a]">
         <div className="container-custom">
           <h2 className="heading-secondary text-center mb-12">
             {data.management.title}
@@ -122,7 +125,7 @@ const About = () => {
       </section>
 
       {/* Parent Association Section */}
-      <section className="section-padding bg-white">
+      <section className="section-primary">
         <div className="container-custom">
           <h2 className="heading-secondary text-center mb-8">
             {data.parentAssociation.title}
@@ -156,7 +159,7 @@ const About = () => {
       </section>
 
       {/* Staff Section */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-[#b1a08f7a]">
         <div className="container-custom">
           <h2 className="heading-secondary text-center mb-8">
             {data.staff.title}
@@ -170,7 +173,7 @@ const About = () => {
                 key={index}
                 className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow"
               >
-                <div className="aspect-w-4 aspect-h-3">
+                <div className="aspect-w-4 aspect-h-1.5">
                   <img
                     src={staffImages[index % staffImages.length]}
                     alt={member.name}

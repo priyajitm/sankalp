@@ -38,7 +38,7 @@
           "description": "The foundation of Sankalp, Kochi was laid in 1997 with a single room and a single child with special needs with the initiative of NWWA-SR (Naval Welfare and Wellness Association – Southern Region). It was initially established as a day care centre only for Naval Wards. Now the School is open to larger community."
         },
         {
-          "title": "Own Premises Since 2011",
+          "title": "Robust School Infrastructure",
           "description": "Sankalp has its own beautiful school building located in Naval Base, Kochi. The school facility is housed in a modern infrastructure with latest amenities for supporting the unique needs of each child studying here."
         },
         {
@@ -124,7 +124,7 @@
     "subtitle": "Empowering Special Needs Education Since 1997",
     "history": {
       "title": "Our History",
-      "content": "Sankalp is the name given to schools for special children of Naval personnel which is an amazing initiative of Naval welfare and wellness association (NWWA). The school is set up at four locations in the country viz. Delhi, Mumbai, Kochi and Vishakapatnam. Sankalp, Kochi was Established in 1997 with a single child and a single classroom at NWWA office. Thereafter, the school gets its own premises in 2011 and is currently situated in the Naval base at Southern Naval command. The infrastructure at the school consists of a classroom, physiotherapy room and operational therapy room. The existing sensory park at the school is a thoughtfully designed space aimed at supporting the sensory development of children with special needs. This park features various elements like texture surface, which is tailored to engage the children’s sense of touch hearing insight these spaces provide a safe environment, where children can practice emotional regulation and sensory processing."
+      "content": "Sankalp is the name given to schools for special children of Naval personnel, which is an amazing initiative of Naval welfare and wellness association (NWWA). The school is set up at four locations in the country viz. Delhi, Mumbai, Kochi and Vishakapatnam. Sankalp, Kochi was Established in 1997 with a single child and a single classroom at NWWA office. Thereafter, the school gets its own premises in 2011 and is currently situated in the Naval base at Southern Naval command."
     },
     "philosophy": {
       "title": "Our Philosophy",
@@ -141,28 +141,32 @@
         "To instill self-confidence"
       ]
     },
+    "currentInfra": {
+      "title": "Current Infrastructure",
+      "content": "The current infrastructure at the school consists of classrooms, physiotherapy rooms, occupational therapy rooms and multiple open spaces for wholesome development of children. The Sensory park at the school is a thoughtfully designed space aimed at supporting the sensory development of children with special needs. This park features various elements like textured surfaces, which are tailored to engage the children’s sense of touch, hearing and sight. These spaces provide a safe environment, where children can practice emotional regulation and sensory processing."
+    },
     "management": {
       "title": "School Management",
       "members": [
         {
-          "name": "Cmde Sudheer Reddy",
+          "name": "Mrs. Soma Chakrabarti",
+          "position": "Headmistress",
+          "department": "Academic Leadership"
+        },
+        {
+          "name": "Cmde Sudhir Reddy",
           "position": "Commanding Officer (CS)",
           "department": "Naval Command"
         },
         {
           "name": "Mrs. Dona Reddy",
           "position": "NWWA Coordinator",
-          "department": "NWWA"
+          "department": "Navy Welfare and Wellness Association (NWWA)"
         },
         {
           "name": "Lt Cdr Uma Maheshwar",
           "position": "Officer in Charge (OiC)",
           "department": "Naval Administration"
-        },
-        {
-          "name": "Mrs. Soma Chakrabarti",
-          "position": "Headmistress",
-          "department": "Academic Leadership"
         }
       ]
     },
@@ -171,16 +175,16 @@
       "description": "The Parents Students Association plays a vital role in fostering collaboration between families and the school administration.",
       "members": [
         {
+          "name": "Mrs. Soma Chakrabarti",
+          "position": "Headmistress"
+        },
+        {
           "name": "Mrs. Dona Reddy",
-          "position": "NWWA Coordinator"
+          "position": "Navy Welfare and Wellness Association (NWWA)"
         },
         {
           "name": "Lt Cdr Uma Maheshwar",
           "position": "Officer in Charge (OiC)"
-        },
-        {
-          "name": "Mrs. Soma Chakrabarti",
-          "position": "Headmistress"
         }
       ]
     },

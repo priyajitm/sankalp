@@ -50,12 +50,12 @@ const Home = () => {
       />
       <Feedback data={data?.feedback} />
       {/* Call to Action */}
-      <section className="section-padding bg-blue-600 text-white">
+      <section className="section-padding bg-[#524b4d] text-white">
         <div className="container-custom text-center">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Join Our Learning Community?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
             Discover how we can help your child achieve their full potential
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
