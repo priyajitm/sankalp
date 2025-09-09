@@ -63,10 +63,10 @@ const About = () => {
               {data.history.title}
             </h2>
             <p className="text-body text-lg leading-relaxed text-justify">
+              <span className="font-bold">{data.history.contentOne}</span>
+              <span className="">{data.history.contentTwo}</span>
+              <span className="font-bold">{data.history.contentThree}</span>
               {data.history.content}
-            </p>
-            <p className="text-body text-lg leading-relaxed text-justify mt-8">
-              {data.currentInfra.content}
             </p>
           </div>
         </div>
@@ -81,6 +81,21 @@ const About = () => {
             </h2>
             <p className="text-body text-lg leading-relaxed text-justify">
               {data.philosophy.content}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Professional Care Section */}
+
+      <section className="section-primary">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="heading-secondary text-center mb-8">
+              {data.professionalCare.title}
+            </h2>
+            <p className="text-body text-lg leading-relaxed text-justify font-bold">
+              {data.professionalCare.content}
             </p>
           </div>
         </div>
@@ -101,11 +116,11 @@ const About = () => {
                 className="bg-primary rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow"
               >
                 <div className="flex items-center space-x-4">
-                  <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+                  <div className="w-32 h-32 rounded-full overflow-hidden flex-shrink-0">
                     <img
                       src={managementImages[index % managementImages.length]}
                       alt={member.name}
-                      className="w-full h-full object-cover"
+                      className="w-32 h-32 object-cover object-top"
                     />
                   </div>
                   <div>
@@ -140,11 +155,11 @@ const About = () => {
                   key={index}
                   className="bg-orange-50 rounded-lg p-6 text-center"
                 >
-                  <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4">
+                  <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-4">
                     <img
                       src={psaImages[index % psaImages.length]}
                       alt={member.name}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover object-top"
                     />
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-1">
@@ -173,11 +188,11 @@ const About = () => {
                 key={index}
                 className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow"
               >
-                <div className="aspect-w-4 aspect-h-1.5">
+                <div className="aspect-w-4 aspect-h-5">
                   <img
                     src={staffImages[index % staffImages.length]}
                     alt={member.name}
-                    className="w-full h-48 object-cover"
+                    className="w-full h-96 object-cover object-top"
                   />
                 </div>
                 <div className="p-6">

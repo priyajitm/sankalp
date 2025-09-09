@@ -17,13 +17,17 @@ const Footer = () => {
           {/* School Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-600 to-secondary-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">S</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold">Sankalp School</h3>
-                <p className="text-gray-400 text-sm">Embrace the Unique!</p>
-              </div>
+              <Link to="/" className="flex items-center gap-3">
+                <img
+                  src={"/images/sankalp-logo.jpeg"}
+                  alt="Sankalp School Kochi"
+                  className="w-12 h-12 object-cover hover:scale-105 transition-transform duration-300"
+                />
+                <div>
+                  <h3 className="text-xl font-bold">Sankalp School</h3>
+                  <p className="text-gray-400 text-sm">Embrace the Unique!</p>
+                </div>
+              </Link>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Nurturing young minds with quality education, moral values, and

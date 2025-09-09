@@ -43,11 +43,11 @@
         },
         {
           "title": "Complete Facilities",
-          "description": "Children with special needs are nurtured in a complete barrier free school building of Sankalp. Facilities include Sensory Pathway, Sensory Integration Room, Occupational Therapy Room, Physiotherapy Room and a barrier free playground."
+          "description": "Children with special needs are nurtured in a complete barrier free school building of Sankalp. Facilities include Sensory Pathway, Classrooms for Sensory Integration, Occupational Therapy, Physiotherapy and Open green spaces for barrier free playground."
         },
         {
           "title": "Professional Care",
-          "description": "Sankalp specializes in care for children with autism, developmental delays. Services also include Speech therapy, Occupational therapy, Behavioural therapy, Physiotherapy and Counselling to enhance Motor, Cognitive, and Social skills."
+          "description": "Sankalp specializes in care for children with autism and developmental delays. Services also include Speech therapy, Occupational therapy, Behavioural therapy, Physiotherapy and Counselling to enhance Motor, Cognitive and Social skills."
         }
       ]
     },
@@ -124,11 +124,17 @@
     "subtitle": "Empowering Special Needs Education Since 1997",
     "history": {
       "title": "Our History",
-      "content": "Sankalp is the name given to schools for special children of Naval personnel, which is an amazing initiative of Naval welfare and wellness association (NWWA). The school is set up at four locations in the country viz. Delhi, Mumbai, Kochi and Vishakapatnam. Sankalp, Kochi was Established in 1997 with a single child and a single classroom at NWWA office. Thereafter, the school gets its own premises in 2011 and is currently situated in the Naval base at Southern Naval command."
+      "contentOne": "The school has grown over the years into a vibrant place for special children from all backgrounds, offering modern day facilities and curriculum customized for best development of each ward attending the school.",
+      "contentTwo": "The current infrastructure at the school consists of classrooms, physiotherapy rooms, occupational therapy rooms and multiple open spaces for wholesome development of children. The Sensory park at the school is a thoughtfully designed space aimed at supporting the sensory development of children with special needs. This park features various elements like textured surfaces, which are tailored to engage the children’s sense of touch, hearing and sight. ",
+      "contentThree": "The school provides a safe environment, where children can practice improving emotional regulation and sensory processing under guidance from trained staff."
     },
     "philosophy": {
       "title": "Our Philosophy",
       "content": "We believe that every child has the right to avail equal opportunities as others, regardless of the difficulties they face. Special education is of great importance for children with learning disabilities, because it gives them the opportunity to get quality education in line with their unique needs. Special education enables every student to gain a high level of independence and reach their full potential."
+    },
+    "professionalCare": {
+      "title": "Professional Care",
+      "content": "Doctors and staff from Early Intervention dept. of Naval Hospital Sanjivani provide regular Health camps at the school. Therapies to the students are provided under customized plan for each child of Sankalp."
     },
     "objectives": {
       "title": "Objectives of the School",
@@ -140,10 +146,6 @@
         "To evolve positive attitude towards learning",
         "To instill self-confidence"
       ]
-    },
-    "currentInfra": {
-      "title": "Current Infrastructure",
-      "content": "The current infrastructure at the school consists of classrooms, physiotherapy rooms, occupational therapy rooms and multiple open spaces for wholesome development of children. The Sensory park at the school is a thoughtfully designed space aimed at supporting the sensory development of children with special needs. This park features various elements like textured surfaces, which are tailored to engage the children’s sense of touch, hearing and sight. These spaces provide a safe environment, where children can practice emotional regulation and sensory processing."
     },
     "management": {
       "title": "School Management",
@@ -211,14 +213,14 @@
           "description": "Expert in motor skills development and sensory integration therapy"
         },
         {
-          "name": "Mrs. Sony Khatoon",
-          "position": "Sahayika",
+          "name": "Mrs. Ruchi Gupta",
+          "position": "Teaching Staff",
           "image": "/images/staff/sahayika1.jpg",
           "description": "Providing essential support and care for daily activities and assistance"
         },
         {
-          "name": "Mrs. Smitha",
-          "position": "Sahayika",
+          "name": "Mrs. Babitha",
+          "position": "Teaching Staff",
           "image": "/images/staff/sahayika2.jpg",
           "description": "Dedicated support staff ensuring a safe and nurturing environment"
         }

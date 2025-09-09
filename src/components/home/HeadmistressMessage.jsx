@@ -28,7 +28,7 @@ const HeadmistressMessage = ({ data }) => {
                     <img
                       src={"images/15.png"}
                       alt={`Headmistress Photo`}
-                      className="w-full h-full object-cover rounded-2xl"
+                      className="w-full h-full object-cover object-top rounded-2xl"
                     />
                   </div>
                 </div>
