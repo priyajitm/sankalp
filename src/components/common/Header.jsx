@@ -24,7 +24,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <img
-              src={"/images/sankalp-logo.jpeg"}
+              src={"images/sankalp-logo.jpeg"}
               alt="Sankalp School Kochi"
               className="w-12 h-12 object-cover hover:scale-105 transition-transform duration-300"
             />

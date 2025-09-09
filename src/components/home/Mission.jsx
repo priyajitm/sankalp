@@ -98,7 +98,7 @@ const Mission = ({ mission, vision, values }) => {
                         <div className="relative">
                           <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                             <img
-                              src="/images/homepage/mission.jpeg"
+                              src="images/homepage/mission.jpeg"
                               alt="Mission"
                               loading="lazy"
                               className="w-full h-full object-cover"
@@ -146,7 +146,7 @@ const Mission = ({ mission, vision, values }) => {
                         <div className="relative">
                           <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                             <img
-                              src="/images/homepage/vision.jpeg"
+                              src="images/homepage/vision.jpeg"
                               alt="Vision"
                               loading="lazy"
                               className="w-full h-full object-cover"
