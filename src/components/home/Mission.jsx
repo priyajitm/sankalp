@@ -21,11 +21,11 @@ const Mission = ({ mission, vision, values }) => {
                 Our Foundation
               </span>
             </div> */}
-            <h2 className="text-4xl md:text-6xl font-light text-gray-900 mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6 leading-tight">
               Our Mission, Vision & Values
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-[#524b4d] to-[#b1a08f7a] mx-auto mb-8"></div>
-            <p className="text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto font-light">
+            <p className="text-lg text-gray-600 leading-relaxed max-w-4xl mx-auto font-light">
               The guiding principles that shape our commitment to exceptional
               special education
             </p>
@@ -87,10 +87,10 @@ const Mission = ({ mission, vision, values }) => {
                             </svg>
                           </div>
                           <div className="flex-1">
-                            <h3 className="text-4xl font-light text-gray-900 mb-6 leading-tight">
+                            <h3 className="text-3xl font-light text-gray-900 mb-6 leading-tight">
                               {mission.title}
                             </h3>
-                            <p className="text-gray-700 text-xl leading-relaxed font-light">
+                            <p className="text-gray-700 text-lg leading-relaxed font-light">
                               {mission.content}
                             </p>
                           </div>
@@ -135,10 +135,10 @@ const Mission = ({ mission, vision, values }) => {
                             </svg>
                           </div>
                           <div className="flex-1">
-                            <h3 className="text-4xl font-light text-gray-900 mb-6 leading-tight">
+                            <h3 className="text-3xl font-light text-gray-900 mb-6 leading-tight">
                               {vision.title}
                             </h3>
-                            <p className="text-gray-700 text-xl leading-relaxed font-light">
+                            <p className="text-gray-700 text-lg leading-relaxed font-light">
                               {vision.content}
                             </p>
                           </div>
@@ -165,10 +165,10 @@ const Mission = ({ mission, vision, values }) => {
           {values && (
             <div>
               <div className="text-center mb-16">
-                <h3 className="text-4xl font-light text-gray-900 mb-6 leading-tight">
+                <h3 className="text-3xl font-light text-gray-900 mb-6 leading-tight">
                   {values.title}
                 </h3>
-                <p className="text-gray-600 text-xl max-w-3xl mx-auto font-light leading-relaxed">
+                <p className="text-gray-600 text-lg max-w-3xl mx-auto font-light leading-relaxed">
                   The principles that guide our approach to special education
                   and inclusive learning
                 </p>
@@ -186,9 +186,9 @@ const Mission = ({ mission, vision, values }) => {
                     >
                       <div className="flex items-center gap-6">
                         <div className="w-16 h-16 bg-gradient-to-br from-[#524b4d] to-[#b1a08f7a] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                          <span className="text-2xl">{value.icon}</span>
+                          <span className="text-xl">{value.icon}</span>
                         </div>
-                        <h4 className="text-2xl font-medium text-gray-900 transition-colors duration-300">
+                        <h4 className="text-xl font-medium text-gray-900 transition-colors duration-300">
                           {value.title}
                         </h4>
                       </div>

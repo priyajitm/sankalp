@@ -7,7 +7,7 @@
           "title": "Welcome to Sankalp School",
           "subtitle": "Empowering Children with Special Needs Since 1997",
           "description": "A world where children with special needs and typically developing children recognize abilities, not disabilities, and learn together in high-quality, inclusive environments.",
-          "image": "/images/hero-1.jpg",
+          "image": "images/hero-1.jpg",
           "buttonText": "Explore Our School",
           "buttonLink": "/about"
         },
@@ -16,7 +16,7 @@
           "title": "Quality Special Education",
           "subtitle": "Individualized Educational Plans for Every Child",
           "description": "We create customized educational plans to meet the unique needs of each child, helping them achieve their maximum potential.",
-          "image": "/images/hero-2.jpg",
+          "image": "images/hero-2.jpg",
           "buttonText": "Learn About Admission",
           "buttonLink": "/admission"
         },
@@ -25,7 +25,7 @@
           "title": "Inclusive Learning Environment",
           "subtitle": "Building Confidence and Independence",
           "description": "Our supportive community encourages empathy, respect and acceptance in classrooms that integrate students with and without special needs.",
-          "image": "/images/hero-3.jpg",
+          "image": "images/hero-3.jpg",
           "buttonText": "View Our Programs",
           "buttonLink": "/special-curriculum"
         }
@@ -56,7 +56,7 @@
       "name": "Mrs. Soma Chakrabarti",
       "position": "Headmistress, Sankalp School",
       "message": "Every child has the right to avail equal opportunities as others, regardless of the difficulties they face. Special education is of great importance for children with learning disabilities, because it gives them the opportunity to get quality education in line with their unique needs. Special education enables every student to gain a high level of independence and reach their full potential. According to UNICEF, about 93 million children around the world have been diagnosed with some form of disability. Over 50% of that number do not attend school at all, which robs them of the right to a better life. In order to meet specific student needs an Individualized Educational Plan (IEP) is created for each child with learning disabilities. This way, the school designs an educational plan they need to implement based on the identified disability. The IEP is designed by a team comprising teachers, specialists (e.g. special education teachers) and family. The role of parents is crucial in this process, because they know their child best, and can provide a lot of valuable information.",
-      "image": "/images/headmistress.jpg"
+      "image": "images/headmistress.jpg"
     },
     "mission": {
       "title": "Our Mission",
@@ -197,31 +197,31 @@
         {
           "name": "Mrs. Soma Chakrabarti",
           "position": "Headmistress",
-          "image": "/images/staff/headmistress.jpg",
+          "image": "images/staff/headmistress.jpg",
           "description": "Leading our school with passion and dedication to special needs education"
         },
         {
           "name": "Mrs. Hima PB",
           "position": "Special Educator",
-          "image": "/images/staff/special-educator.jpg",
+          "image": "images/staff/special-educator.jpg",
           "description": "Specialized in creating individualized education plans and adaptive learning strategies"
         },
         {
           "name": "Mrs. Rosamma Francis",
           "position": "Occupational Therapist",
-          "image": "/images/staff/occupational-therapist.jpg",
+          "image": "images/staff/occupational-therapist.jpg",
           "description": "Expert in motor skills development and sensory integration therapy"
         },
         {
           "name": "Mrs. Ruchi Gupta",
           "position": "Teaching Staff",
-          "image": "/images/staff/sahayika1.jpg",
+          "image": "images/staff/sahayika1.jpg",
           "description": "Providing essential support and care for daily activities and assistance"
         },
         {
           "name": "Mrs. Babitha",
           "position": "Teaching Staff",
-          "image": "/images/staff/sahayika2.jpg",
+          "image": "images/staff/sahayika2.jpg",
           "description": "Dedicated support staff ensuring a safe and nurturing environment"
         }
       ]
@@ -306,7 +306,7 @@
         {
           "name": "Physiotherapy Room",
           "description": "Equipped with specialized equipment for physical therapy and motor skill development",
-          "image": "/images/facilities/physiotherapy-room.jpg",
+          "image": "images/facilities/physiotherapy-room.jpg",
           "features": [
             "Exercise equipment",
             "Mat work areas",
@@ -317,7 +317,7 @@
         {
           "name": "Occupational Therapy Room",
           "description": "Specialized space for fine motor skills, sensory integration, and daily living activities",
-          "image": "/images/facilities/occupational-therapy-room.jpg",
+          "image": "images/facilities/occupational-therapy-room.jpg",
           "features": [
             "Sensory equipment",
             "Fine motor tools",
@@ -328,7 +328,7 @@
         {
           "name": "Sensory Park",
           "description": "Outdoor sensory experience area with natural elements and interactive features",
-          "image": "/images/facilities/sensory-park.jpg",
+          "image": "images/facilities/sensory-park.jpg",
           "features": [
             "Textured pathways",
             "Sensory gardens",
@@ -339,7 +339,7 @@
         {
           "name": "Sensory Room",
           "description": "Indoor controlled environment for sensory regulation and therapeutic activities",
-          "image": "/images/facilities/sensory-room.jpg",
+          "image": "images/facilities/sensory-room.jpg",
           "features": [
             "Lighting controls",
             "Sound therapy",
@@ -366,7 +366,7 @@
           "Customized curriculum development",
           "One-on-one instruction"
         ],
-        "image": "/images/programs/special-education.jpg"
+        "image": "images/programs/special-education.jpg"
       },
       {
         "title": "Occupational Therapy",
@@ -379,7 +379,7 @@
           "Adaptive equipment training",
           "Self-care skill development"
         ],
-        "image": "/images/programs/occupational-therapy.jpg"
+        "image": "images/programs/occupational-therapy.jpg"
       },
       {
         "title": "Physiotherapy",
@@ -392,7 +392,7 @@
           "Posture correction therapy",
           "Movement pattern training"
         ],
-        "image": "/images/programs/physiotherapy.jpg"
+        "image": "images/programs/physiotherapy.jpg"
       },
       {
         "title": "Musical Therapy",
@@ -405,7 +405,7 @@
           "Cognitive stimulation via musical activities",
           "Stress reduction and relaxation"
         ],
-        "image": "/images/programs/musical-therapy.jpg"
+        "image": "images/programs/musical-therapy.jpg"
       },
       {
         "title": "Vocational Training",
@@ -418,7 +418,7 @@
           "Social skills for workplace",
           "Transition planning support"
         ],
-        "image": "/images/programs/vocational-training.jpg"
+        "image": "images/programs/vocational-training.jpg"
       }
     ]
   },
@@ -432,20 +432,62 @@
         "images": [
           {
             "id": 1,
-            "url": "/images/gallery/activities-1.jpg",
-            "title": "Classroom Learning",
+            "url": "images/gallery/school-activities/school_activity_1.jpeg",
+            "title": "School Activity 1",
             "description": "Students engaged in interactive learning sessions"
           },
           {
             "id": 2,
-            "url": "/images/gallery/activities-2.jpg",
-            "title": "Group Activities",
+            "url": "images/gallery/school-activities/school_activity_2.jpeg",
+            "title": "School Activity 2",
             "description": "Children participating in social adjustment activities"
           },
           {
             "id": 3,
-            "url": "/images/gallery/activities-3.jpg",
-            "title": "Creative Arts",
+            "url": "images/gallery/school-activities/school_activity_3.jpeg",
+            "title": "School Activity 3",
+            "description": "Art and craft sessions for skill development"
+          },
+          {
+            "id": 4,
+            "url": "images/gallery/school-activities/school_activity_4.jpeg",
+            "title": "School Activity 4",
+            "description": "Students engaged in interactive learning sessions"
+          },
+          {
+            "id": 5,
+            "url": "images/gallery/school-activities/school_activity_5.jpeg",
+            "title": "School Activity 5",
+            "description": "Children participating in social adjustment activities"
+          },
+          {
+            "id": 6,
+            "url": "images/gallery/school-activities/school_activity_6.jpeg",
+            "title": "School Activity 6",
+            "description": "Art and craft sessions for skill development"
+          },
+          {
+            "id": 7,
+            "url": "images/gallery/school-activities/school_activity_7.jpeg",
+            "title": "School Activity 7",
+            "description": "Students engaged in interactive learning sessions"
+          },
+          {
+            "id": 8,
+            "url": "images/gallery/school-activities/school_activity_8.jpeg",
+            "title": "School Activity 8",
+            "description": "Children participating in social adjustment activities"
+          },
+          {
+            "id": 9,
+            "url": "images/gallery/school-activities/school_activity_9.jpeg",
+            "title": "School Activity 9",
+            "description": "Art and craft sessions for skill development"
+          },
+          {
+            "id": 10,
+            "url": "images/gallery/school-activities/school_activity_10.jpeg",
+            "title": "School Activity 10",
             "description": "Art and craft sessions for skill development"
           }
         ]
@@ -455,21 +497,57 @@
         "id": "therapy",
         "images": [
           {
+            "id": 1,
+            "url": "images/gallery/therapy/therapy_1.jpeg",
+            "title": "Therapy Session 1",
+            "description": "Motor coordination development sessions"
+          },
+          {
+            "id": 2,
+            "url": "images/gallery/therapy/therapy_2.jpeg",
+            "title": "Therapy Session 2",
+            "description": "Communication skills enhancement"
+          },
+          {
+            "id": 3,
+            "url": "images/gallery/therapy/therapy_3.jpeg",
+            "title": "Therapy Session 3",
+            "description": "Physical development and coordination"
+          },
+          {
             "id": 4,
-            "url": "/images/gallery/therapy-1.jpg",
-            "title": "Occupational Therapy",
+            "url": "images/gallery/therapy/therapy_4.jpeg",
+            "title": "Therapy Session 4",
             "description": "Motor coordination development sessions"
           },
           {
             "id": 5,
-            "url": "/images/gallery/therapy-2.jpg",
-            "title": "Speech Therapy",
+            "url": "images/gallery/therapy/therapy_5.jpeg",
+            "title": "Therapy Session 5",
             "description": "Communication skills enhancement"
           },
           {
             "id": 6,
-            "url": "/images/gallery/therapy-3.jpg",
-            "title": "Physical Therapy",
+            "url": "images/gallery/therapy/therapy_6.jpeg",
+            "title": "Therapy Session 6",
+            "description": "Physical development and coordination"
+          },
+          {
+            "id": 7,
+            "url": "images/gallery/therapy/therapy_7.jpeg",
+            "title": "Therapy Session 7",
+            "description": "Physical development and coordination"
+          },
+          {
+            "id": 8,
+            "url": "images/gallery/therapy/therapy_8.jpeg",
+            "title": "Therapy Session 8",
+            "description": "Physical development and coordination"
+          },
+          {
+            "id": 9,
+            "url": "images/gallery/therapy/therapy_9.jpeg",
+            "title": "Therapy Session 9",
             "description": "Physical development and coordination"
           }
         ]
@@ -479,20 +557,62 @@
         "id": "events",
         "images": [
           {
+            "id": 1,
+            "url": "images/gallery/events/event_1.jpeg",
+            "title": "Annual Day",
+            "description": "Celebrating achievements and talents"
+          },
+          {
+            "id": 2,
+            "url": "images/gallery/events/event_2.jpeg",
+            "title": "Sports Day",
+            "description": "Physical activities and games"
+          },
+          {
+            "id": 3,
+            "url": "images/gallery/events/event_3.jpeg",
+            "title": "Cultural Programs",
+            "description": "Showcasing diverse talents and abilities"
+          },
+          {
+            "id": 4,
+            "url": "images/gallery/events/event_4.jpeg",
+            "title": "Annual Day",
+            "description": "Celebrating achievements and talents"
+          },
+          {
+            "id": 5,
+            "url": "images/gallery/events/event_5.jpeg",
+            "title": "Sports Day",
+            "description": "Physical activities and games"
+          },
+          {
+            "id": 6,
+            "url": "images/gallery/events/event_6.jpeg",
+            "title": "Cultural Programs",
+            "description": "Showcasing diverse talents and abilities"
+          },
+          {
             "id": 7,
-            "url": "/images/gallery/events-1.jpg",
+            "url": "images/gallery/events/event_7.jpeg",
             "title": "Annual Day",
             "description": "Celebrating achievements and talents"
           },
           {
             "id": 8,
-            "url": "/images/gallery/events-2.jpg",
+            "url": "images/gallery/events/event_8.jpeg",
             "title": "Sports Day",
             "description": "Physical activities and games"
           },
           {
             "id": 9,
-            "url": "/images/gallery/events-3.jpg",
+            "url": "images/gallery/events/event_9.jpeg",
+            "title": "Cultural Programs",
+            "description": "Showcasing diverse talents and abilities"
+          },
+          {
+            "id": 10,
+            "url": "images/gallery/events/event_10.jpeg",
             "title": "Cultural Programs",
             "description": "Showcasing diverse talents and abilities"
           }
@@ -504,19 +624,19 @@
         "images": [
           {
             "id": 10,
-            "url": "/images/gallery/facilities-1.jpg",
+            "url": "images/gallery/facilities-1.jpg",
             "title": "Main Building",
             "description": "Our well-equipped school building"
           },
           {
             "id": 11,
-            "url": "/images/gallery/facilities-2.jpg",
+            "url": "images/gallery/facilities-2.jpg",
             "title": "Playground",
             "description": "Safe outdoor space for activities"
           },
           {
             "id": 12,
-            "url": "/images/gallery/facilities-3.jpg",
+            "url": "images/gallery/facilities-3.jpg",
             "title": "Therapy Room",
             "description": "Specialized occupational therapy facility"
           }
@@ -535,17 +655,17 @@
           {
             "title": "Communication Milestones",
             "description": "Students making remarkable progress in speech and communication",
-            "image": "/images/students/achievement-1.jpg"
+            "image": "images/students/achievement-1.jpg"
           },
           {
             "title": "Independence Skills",
             "description": "Children learning essential life skills and gaining independence",
-            "image": "/images/students/achievement-2.jpg"
+            "image": "images/students/achievement-2.jpg"
           },
           {
             "title": "Social Integration",
             "description": "Students successfully participating in group activities and social events",
-            "image": "/images/students/achievement-3.jpg"
+            "image": "images/students/achievement-3.jpg"
           }
         ]
       },
@@ -556,17 +676,17 @@
           {
             "title": "Art Therapy Sessions",
             "description": "Creative expression through art and craft activities",
-            "image": "/images/students/program-1.jpg"
+            "image": "images/students/program-1.jpg"
           },
           {
             "title": "Music and Movement",
             "description": "Rhythmic activities for sensory and motor development",
-            "image": "/images/students/program-2.jpg"
+            "image": "images/students/program-2.jpg"
           },
           {
             "title": "Life Skills Training",
             "description": "Practical skills for daily living and independence",
-            "image": "/images/students/program-3.jpg"
+            "image": "images/students/program-3.jpg"
           }
         ]
       }
@@ -587,10 +707,10 @@
             "Recognition and awards for achievements"
           ],
           "images": [
-            "/images/events/mahabali-competition-1.jpg",
-            "/images/events/mahabali-competition-2.jpg",
-            "/images/events/mahabali-competition-3.jpg",
-            "/images/events/mahabali-competition-4.jpg"
+            "images/events/mahabali-competition-1.jpg",
+            "images/events/mahabali-competition-2.jpg",
+            "images/events/mahabali-competition-3.jpg",
+            "images/events/mahabali-competition-4.jpg"
           ]
         },
         {
@@ -605,9 +725,9 @@
             "Building self-confidence on stage"
           ],
           "images": [
-            "/images/events/fancy-dress-1.jpg",
-            "/images/events/fancy-dress-2.jpg",
-            "/images/events/fancy-dress-3.jpg"
+            "images/events/fancy-dress-1.jpg",
+            "images/events/fancy-dress-2.jpg",
+            "images/events/fancy-dress-3.jpg"
           ]
         },
         {
@@ -622,11 +742,11 @@
             "Fun and recreational activities"
           ],
           "images": [
-            "/images/events/sports-competition-1.jpg",
-            "/images/events/sports-competition-2.jpg",
-            "/images/events/sports-competition-3.jpg",
-            "/images/events/sports-competition-4.jpg",
-            "/images/events/sports-competition-5.jpg"
+            "images/events/sports-competition-1.jpg",
+            "images/events/sports-competition-2.jpg",
+            "images/events/sports-competition-3.jpg",
+            "images/events/sports-competition-4.jpg",
+            "images/events/sports-competition-5.jpg"
           ]
         }
       ]
@@ -647,9 +767,9 @@
             "Fine motor skill development"
           ],
           "images": [
-            "/images/vocational/jute-bag-printing-1.jpg",
-            "/images/vocational/jute-bag-printing-2.jpg",
-            "/images/vocational/jute-bag-printing-3.jpg"
+            "images/vocational/jute-bag-printing-1.jpg",
+            "images/vocational/jute-bag-printing-2.jpg",
+            "images/vocational/jute-bag-printing-3.jpg"
           ]
         },
         {
@@ -664,10 +784,10 @@
             "Hand-eye coordination"
           ],
           "images": [
-            "/images/vocational/greeting-cards-1.jpg",
-            "/images/vocational/greeting-cards-2.jpg",
-            "/images/vocational/greeting-cards-3.jpg",
-            "/images/vocational/greeting-cards-4.jpg"
+            "images/vocational/greeting-cards-1.jpg",
+            "images/vocational/greeting-cards-2.jpg",
+            "images/vocational/greeting-cards-3.jpg",
+            "images/vocational/greeting-cards-4.jpg"
           ]
         },
         {
@@ -682,9 +802,9 @@
             "Creative design thinking"
           ],
           "images": [
-            "/images/vocational/macrame-art-1.jpg",
-            "/images/vocational/macrame-art-2.jpg",
-            "/images/vocational/macrame-art-3.jpg"
+            "images/vocational/macrame-art-1.jpg",
+            "images/vocational/macrame-art-2.jpg",
+            "images/vocational/macrame-art-3.jpg"
           ]
         },
         {
@@ -699,10 +819,10 @@
             "Artistic expression"
           ],
           "images": [
-            "/images/vocational/clay-pot-painting-1.jpg",
-            "/images/vocational/clay-pot-painting-2.jpg",
-            "/images/vocational/clay-pot-painting-3.jpg",
-            "/images/vocational/clay-pot-painting-4.jpg"
+            "images/vocational/clay-pot-painting-1.jpg",
+            "images/vocational/clay-pot-painting-2.jpg",
+            "images/vocational/clay-pot-painting-3.jpg",
+            "images/vocational/clay-pot-painting-4.jpg"
           ]
         },
         {
@@ -717,11 +837,11 @@
             "Emotional expression through art"
           ],
           "images": [
-            "/images/vocational/canvas-painting-1.jpg",
-            "/images/vocational/canvas-painting-2.jpg",
-            "/images/vocational/canvas-painting-3.jpg",
-            "/images/vocational/canvas-painting-4.jpg",
-            "/images/vocational/canvas-painting-5.jpg"
+            "images/vocational/canvas-painting-1.jpg",
+            "images/vocational/canvas-painting-2.jpg",
+            "images/vocational/canvas-painting-3.jpg",
+            "images/vocational/canvas-painting-4.jpg",
+            "images/vocational/canvas-painting-5.jpg"
           ]
         }
       ]
@@ -733,17 +853,17 @@
         {
           "title": "Communication Milestones",
           "description": "Students making remarkable progress in speech and communication skills",
-          "image": "/images/achievements/communication.jpg"
+          "image": "images/achievements/communication.jpg"
         },
         {
           "title": "Independence Skills",
           "description": "Children learning essential life skills and gaining independence in daily activities",
-          "image": "/images/achievements/independence.jpg"
+          "image": "images/achievements/independence.jpg"
         },
         {
           "title": "Creative Expressions",
           "description": "Artistic and creative achievements showcasing individual talents and abilities",
-          "image": "/images/achievements/creativity.jpg"
+          "image": "images/achievements/creativity.jpg"
         }
       ]
     }
