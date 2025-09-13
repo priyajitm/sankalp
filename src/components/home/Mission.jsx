@@ -16,12 +16,7 @@ const Mission = ({ mission, vision, values }) => {
         <div className="max-w-6xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-20">
-            {/* <div className="inline-block mb-4">
-              <span className="text-sm font-medium text-blue-600 uppercase tracking-wider">
-                Our Foundation
-              </span>
-            </div> */}
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6 leading-tight">
+            <h2 className="text-3xl font-light text-gray-900 mb-6 leading-tight">
               Our Mission, Vision & Values
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-[#524b4d] to-[#b1a08f7a] mx-auto mb-8"></div>
@@ -87,10 +82,10 @@ const Mission = ({ mission, vision, values }) => {
                             </svg>
                           </div>
                           <div className="flex-1">
-                            <h3 className="text-3xl font-light text-gray-900 mb-6 leading-tight">
+                            <h3 className="text-xl font-light text-gray-900 mb-6 leading-tight">
                               {mission.title}
                             </h3>
-                            <p className="text-gray-700 text-lg leading-relaxed font-light">
+                            <p className="text-gray-700 text-md leading-relaxed font-light">
                               {mission.content}
                             </p>
                           </div>
@@ -135,10 +130,10 @@ const Mission = ({ mission, vision, values }) => {
                             </svg>
                           </div>
                           <div className="flex-1">
-                            <h3 className="text-3xl font-light text-gray-900 mb-6 leading-tight">
+                            <h3 className="text-xl font-light text-gray-900 mb-6 leading-tight">
                               {vision.title}
                             </h3>
-                            <p className="text-gray-700 text-lg leading-relaxed font-light">
+                            <p className="text-gray-700 text-md leading-relaxed font-light">
                               {vision.content}
                             </p>
                           </div>
@@ -188,7 +183,7 @@ const Mission = ({ mission, vision, values }) => {
                         <div className="w-16 h-16 bg-gradient-to-br from-[#524b4d] to-[#b1a08f7a] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                           <span className="text-xl">{value.icon}</span>
                         </div>
-                        <h4 className="text-xl font-medium text-gray-900 transition-colors duration-300">
+                        <h4 className="text-md font-medium text-gray-900 transition-colors duration-300">
                           {value.title}
                         </h4>
                       </div>
@@ -224,7 +219,7 @@ const Mission = ({ mission, vision, values }) => {
                     >
                       <div className="px-10 pb-8">
                         <div className="bg-gradient-to-r from-blue-50/50 to-orange-50/50 rounded-2xl p-8 border-l-4 border-[#524b4d]">
-                          <p className="text-gray-700 leading-relaxed text-lg font-light">
+                          <p className="text-gray-700 leading-relaxed text-md font-light">
                             {value.description}
                           </p>
                         </div>

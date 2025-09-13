@@ -25,8 +25,8 @@ const Admission = () => {
       {/* Hero Section */}
       <section className="bg-[#524b4d] text-white py-20">
         <div className="container-custom text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">{data.title}</h1>
-          <p className="text-xl text-blue-100">{data.subtitle}</p>
+          <h1 className="text-3xl font-bold mb-4">{data.title}</h1>
+          <p className="text-lg text-blue-100">{data.subtitle}</p>
         </div>
       </section>
 
@@ -88,7 +88,7 @@ const Admission = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Requirements */}
             <div className="bg-gray-50 rounded-xl p-8">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">
+              <h3 className="text-xl font-semibold text-gray-900 mb-6">
                 Required Documents
               </h3>
               <ul className="space-y-4">
@@ -103,7 +103,7 @@ const Admission = () => {
 
             {/* School Timings */}
             <div className="bg-gray-50 rounded-xl p-8">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">
+              <h3 className="text-xl font-semibold text-gray-900 mb-6">
                 {data.schoolTimings.title}
               </h3>
               <div className="space-y-6">
@@ -185,7 +185,7 @@ const Admission = () => {
 
                 {/* Facility Content */}
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">
                     {facility.name}
                   </h3>
                   <p className="text-gray-700 mb-4 leading-relaxed">
@@ -214,10 +214,10 @@ const Admission = () => {
       {/* Contact for Admission */}
       <section className="section-padding bg-[#524b4d] text-white">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold mb-4">
+          <h2 className="text-2xl font-bold mb-4">
             Ready to Begin Your Child's Journey?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
             Contact us today to learn more about our admission process and
             schedule a visit to our facilities.
           </p>

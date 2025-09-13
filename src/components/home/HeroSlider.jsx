@@ -71,19 +71,19 @@ const HeroSlider = ({ slides }) => {
       <div className="relative h-full flex items-center justify-center text-center text-white px-4 z-20">
         <div className="max-w-4xl mx-auto">
           <h1
-            className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in text-white drop-shadow-2xl"
+            className="text-4xl font-bold mb-4 animate-fade-in text-white drop-shadow-2xl"
             style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.8)" }}
           >
             Welcome to Sankalp School
           </h1>
           <h2
-            className="text-xl md:text-2xl mb-6 text-white animate-slide-up font-semibold drop-shadow-xl"
+            className="text-xl mb-6 text-white animate-slide-up font-semibold drop-shadow-xl"
             style={{ textShadow: "1px 1px 3px rgba(0,0,0,0.7)" }}
           >
             Empowering Children with Special Needs Since 1997
           </h2>
           <p
-            className="text-lg mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-up text-white drop-shadow-lg"
+            className="text-lg mb-8 mx-auto leading-relaxed animate-slide-up text-white drop-shadow-lg"
             style={{ textShadow: "1px 1px 2px rgba(0,0,0,0.6)" }}
           >
             A world where children with special needs and typically developing

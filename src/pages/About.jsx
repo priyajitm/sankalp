@@ -43,6 +43,8 @@ const About = () => {
     "images/dedicated-staff/20.png",
     "images/dedicated-staff/21.png",
     "images/dedicated-staff/22.png",
+    "images/dedicated-staff/23.jpeg",
+    "images/dedicated-staff/24.jpeg",
   ];
 
   return (
@@ -50,8 +52,8 @@ const About = () => {
       {/* Hero Section */}
       <section className="text-white py-20 bg-[#524b4d]">
         <div className="container-custom text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">{data.title}</h1>
-          <p className="text-xl text-blue-100">{data.subtitle}</p>
+          <h1 className="text-3xl font-bold mb-4">{data.title}</h1>
+          <p className="text-lg text-blue-100">{data.subtitle}</p>
         </div>
       </section>
 
@@ -62,11 +64,11 @@ const About = () => {
             <h2 className="heading-secondary text-center mb-8">
               {data.history.title}
             </h2>
-            <p className="text-body text-lg leading-relaxed text-justify">
-              <span className="font-bold">{data.history.contentOne}</span>
-              <span className="">{data.history.contentTwo}</span>
-              <span className="font-bold">{data.history.contentThree}</span>
+            <p className="text-body text-lg leading-relaxed text-justify mb-4">
               {data.history.content}
+            </p>
+            <p className="text-body text-lg leading-relaxed text-justify">
+              {data.history.contentTwo}
             </p>
           </div>
         </div>
@@ -94,7 +96,7 @@ const About = () => {
             <h2 className="heading-secondary text-center mb-8">
               {data.professionalCare.title}
             </h2>
-            <p className="text-body text-lg leading-relaxed text-justify font-bold">
+            <p className="text-body text-lg leading-relaxed text-justify">
               {data.professionalCare.content}
             </p>
           </div>

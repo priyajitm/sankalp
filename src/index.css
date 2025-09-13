@@ -41,7 +41,7 @@
   }
   
   .heading-secondary {
-    @apply text-3xl md:text-4xl font-semibold text-[#101828a6] mb-6;
+    @apply text-2xl font-semibold text-[#101828a6] mb-6;
   }
   
   .text-body {
@@ -57,7 +57,7 @@
   }
 
   .section-primary {
-    @apply py-16 px-4 sm:px-6 lg:px-8 bg-[#efe1d454]
+    @apply py-8 px-4 sm:px-6 lg:px-8 bg-[#efe1d454]
   }
 
   .section-secondary {

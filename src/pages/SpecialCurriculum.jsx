@@ -34,12 +34,10 @@ const SpecialCurriculum = () => {
       {/* Hero Section */}
       <section className="bg-[#524b4d] text-white py-20">
         <div className="container-custom text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
-            {data.title}
-          </h1>
+          <h1 className="text-3xl font-bold mb-4 text-white">{data.title}</h1>
           <p className="text-xl mb-4 text-blue-100">{data.subtitle}</p>
           {data.description && (
-            <p className="text-lg max-w-4xl mx-auto text-blue-100 leading-relaxed">
+            <p className="text-md max-w-4xl mx-auto text-blue-100 leading-relaxed">
               {data.description}
             </p>
           )}
@@ -65,7 +63,7 @@ const SpecialCurriculum = () => {
                 </div>
 
                 <div className="p-8">
-                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
                     {program.title}
                   </h3>
                   <p className="text-gray-700 mb-6 leading-relaxed">
@@ -192,10 +190,10 @@ const SpecialCurriculum = () => {
       {/* Call to Action */}
       <section className="section-padding bg-[#524b4d] text-white">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold mb-4">
+          <h2 className="text-2xl font-bold mb-4">
             Interested in Our Programs?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
             Learn more about how our specialized curriculum can benefit your
             child's development and growth.
           </p>

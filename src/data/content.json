@@ -124,9 +124,8 @@
     "subtitle": "Empowering Special Needs Education Since 1997",
     "history": {
       "title": "Our History",
-      "contentOne": "The school has grown over the years into a vibrant place for special children from all backgrounds, offering modern day facilities and curriculum customized for best development of each ward attending the school.",
-      "contentTwo": "The current infrastructure at the school consists of classrooms, physiotherapy rooms, occupational therapy rooms and multiple open spaces for wholesome development of children. The Sensory park at the school is a thoughtfully designed space aimed at supporting the sensory development of children with special needs. This park features various elements like textured surfaces, which are tailored to engage the children’s sense of touch, hearing and sight. ",
-      "contentThree": "The school provides a safe environment, where children can practice improving emotional regulation and sensory processing under guidance from trained staff."
+      "content": "Sankalp is the name given to schools for special children of Naval personnel, which is an amazing initiative of Naval welfare and wellness association (NWWA). The school is set up at four locations in the country viz. Delhi, Mumbai, Kochi and Vishakapatnam. Sankalp, Kochi was Established in 1997 with a single child and a single classroom at NWWA office. Thereafter, the school gets its own premises in 2011 and is currently situated in the Naval base at Southern Naval command.",
+      "contentTwo": "The school has grown over the years into a vibrant place for special children from all backgrounds, offering modern day facilities and curriculum customized for best development of each ward attending the school. The current infrastructure at the school consists of classrooms, physiotherapy rooms, occupational therapy rooms and multiple open spaces for wholesome development of children. The Sensory park at the school is a thoughtfully designed space aimed at supporting the sensory development of children with special needs. This park features various elements like textured surfaces, which are tailored to engage the children’s sense of touch, hearing and sight. The school provides a safe environment, where children can practice improving emotional regulation and sensory processing under guidance from trained staff."
     },
     "philosophy": {
       "title": "Our Philosophy",
@@ -221,6 +220,18 @@
         {
           "name": "Mrs. Babitha",
           "position": "Teaching Staff",
+          "image": "images/staff/sahayika2.jpg",
+          "description": "Dedicated support staff ensuring a safe and nurturing environment"
+        },
+        {
+          "name": "Smita",
+          "position": "Dedicated Staff",
+          "image": "images/staff/sahayika2.jpg",
+          "description": "Dedicated support staff ensuring a safe and nurturing environment"
+        },
+        {
+          "name": "Soni",
+          "position": "Dedicated Staff",
           "image": "images/staff/sahayika2.jpg",
           "description": "Dedicated support staff ensuring a safe and nurturing environment"
         }

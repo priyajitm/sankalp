@@ -9,16 +9,11 @@ const Feedback = ({ data }) => {
         <div className="max-w-6xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-16">
-            {/* <div className="inline-block mb-4">
-              <span className="text-sm font-medium text-blue-600 uppercase tracking-wider">
-                Testimonials
-              </span>
-            </div> */}
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6 leading-tight">
+            <h2 className="text-3xl font-light text-gray-900 mb-6 leading-tight">
               {data.title}
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-[#524b4d] to-[#b1a08f7a] mx-auto mb-8"></div>
-            <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto font-light">
+            <p className="text-md text-gray-600 leading-relaxed max-w-3xl mx-auto font-light">
               {data.description}
             </p>
           </div>
@@ -43,10 +38,10 @@ const Feedback = ({ data }) => {
                       />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-light text-gray-800 mb-2">
+                  <h3 className="text-xl font-light text-gray-800 mb-2">
                     Parent & Student Stories
                   </h3>
-                  <p className="text-gray-600 font-light">
+                  <p className="text-gray-600 font-light text-md">
                     Real experiences from our school community
                   </p>
                 </div>
@@ -80,13 +75,13 @@ const Feedback = ({ data }) => {
                 {/* Content */}
                 <div className="relative z-10">
                   <div className="mb-6">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
                       {item.title}
                     </h3>
                     <p className="text-sm text-blue-600 font-medium">Parent</p>
                   </div>
 
-                  <blockquote className="text-gray-700 leading-relaxed font-light text-lg italic">
+                  <blockquote className="text-gray-700 leading-relaxed font-light text-md italic">
                     "{item.description}"
                   </blockquote>
                 </div>

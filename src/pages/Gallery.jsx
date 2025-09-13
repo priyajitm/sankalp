@@ -52,12 +52,15 @@ const Gallery = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 to-secondary-500 text-white section-padding">
+      <section className="bg-[#524b4d] text-white py-20">
         <div className="container-custom text-center">
-          <h1 className="heading-primary text-white">{data?.title}</h1>
-          <p className="text-lg">
-            Capturing moments of learning, growth, and joy
-          </p>
+          <h1 className="text-3xl font-bold mb-4 text-white">{data.title}</h1>
+          <p className="text-xl mb-4 text-blue-100">{data.subtitle}</p>
+          {data.description && (
+            <p className="text-md max-w-4xl mx-auto text-blue-100 leading-relaxed">
+              {data.description}
+            </p>
+          )}
         </div>
       </section>
 

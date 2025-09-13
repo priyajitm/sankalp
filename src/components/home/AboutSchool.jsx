@@ -22,7 +22,7 @@ const AboutSchool = ({ data }) => {
                       <div className="w-6 h-6 bg-white rounded-md"></div>
                     </div>
 
-                    <h4 className="text-xl font-semibold text-[#10182891] mb-3 transition-colors duration-300">
+                    <h4 className="text-lg font-semibold text-[#10182891] mb-3 transition-colors duration-300">
                       {highlight?.title || "Title"}
                     </h4>
 
